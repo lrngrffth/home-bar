@@ -13,3 +13,6 @@ Concept designs created in Figma
 
 ### Build my own drink page with sub categories
 ![Build your own basic](design/self_build_with_categories.png)
+
+### Information Modal
+![Build your own basic](design/info_modal.png)
