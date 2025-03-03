@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'deep-marroon': '#564146',
+        'deep-marroon': '#402d32',
         'dusk-rose': '#C68F9D',
         'baby-pink': '#FFC5D3',
         'cotton-candy': '#FFE3F0'
@@ -15,7 +15,10 @@ module.exports = {
       fontFamily: {
         'abhaya': 'Abhaya Libre',
         'inter': 'Inter'
-      }
+      },
+      backgroundImage: {
+        'paw-print': "url('./images/paws.png')",
+      },
     },
   },
   plugins: [],
