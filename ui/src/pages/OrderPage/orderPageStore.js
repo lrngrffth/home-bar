@@ -35,8 +35,8 @@ export default class OrderPageStore {
 
     async getSpecialtyDrinks() {
         this.loading = true;
-        this.options = items;
-        // this.options = (await getItemsFromDatabase({})).map(option => ({...option, ["price"]: ((Math.random() * 4) + 3).toFixed(2)}))
+        // this.options = items;
+        this.options = (await getItemsFromDatabase({})).map(option => ({...option, ["price"]: ((Math.random() * 4) + 3).toFixed(2)}))
         this.subTypes["Bases"]["Specialties"]["items"] = this.options.filter((option) => option["properties"]["Specialty"]["select"]["name"] == "yes")
         this.subTypes["Bases"]["Tea"]["items"] = this.options.filter((option) => option["properties"]["Category"]["select"]["name"] == "Tea").reduce((acc, tea) => {
             if (!acc[tea["properties"]["SubType"]["select"]["name"]]) {
