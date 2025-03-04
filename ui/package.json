@@ -2,7 +2,7 @@
   "name": "the-purrfect-brew",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lrngrffth.github.io/home-bar",
+  "homepage": "https://lrngrffth.github.io/home-bar/",
   "proxy": "https://api.notion.com/v1/databases/1a854aaf8f1b806dbb92f64eb6235f0d",
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -52,7 +52,7 @@
     "autoprefixer": "^10.4.20",
     "gh-pages": "^6.3.0",
     "postcss": "^8.5.1",
-    "react-router-dom": "^7.1.3",
+    "react-router-dom": "^7.2.0",
     "tailwindcss": "^3.4.17",
     "web-vitals": "^4.2.4"
   }
