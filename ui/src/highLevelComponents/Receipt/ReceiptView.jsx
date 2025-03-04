@@ -12,7 +12,7 @@ const Receipt = observer(() => {
   let rootStore = useContext(RootStoreContext);
   let receiptStore = rootStore.receiptStore;
   return (
-    <div className="flex flex-col text-lg items-center w-96 h-screen pt-6 font-abhaya justify-between pb-24 overflow-scroll">
+    <div className="flex flex-col text-lg items-center w-96 h-screen font-abhaya justify-between py-6 overflow-scroll">
       <div className="w-full flex flex-col items-center px-4">
         <div className="text-2xl font-bold">The Purrfect Brew</div>
         <div>Fitz's Palace, OH</div>

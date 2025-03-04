@@ -34,3 +34,14 @@ export async function getItemsFromDatabase(query) {
     });
     return response;
 };
+
+export async function getRecipe(page_id) {
+    let response = await api.get(`/v1/blocks/${page_id}/children?page_size=100`, axiosConfig
+    ).then(response => {
+        return response["data"]["results"];
+    }).catch(error => {
+        console.log(error)
+        return []
+    });
+    return response;
+};
