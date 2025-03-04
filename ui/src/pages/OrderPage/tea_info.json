@@ -1,5 +1,7 @@
-{"Green": {
-    "Flavor": "Though they vary in taste, green teas tend to have a mellow flavor.",
-    "Origin": "Originating from 2737 BC, China and 8th century Japan",
-    "Caffeine and Benefits": ["12–75 mg caffeine per cup", "High in antioxidants,"]
-}}
+{
+    "Green": {
+        "Flavor": "Though they vary in taste, green teas tend to have a mellow flavor.",
+        "Origin": "Originating from 2737 BC, China and 8th century Japan",
+        "Caffeine and Benefits": ["12–75 mg caffeine per cup", "High in antioxidants"]
+    }
+}
