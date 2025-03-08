@@ -47,10 +47,14 @@ export default class OrderPageStore {
                         acc[subCat["properties"]["SubType"]["select"]["name"]].push(subCat);
                         return acc;
                     }, {});
-                    this.subTypes[page][type]["background"] = this.options.filter((option) => option["properties"]["Category"]["select"] && option["properties"]["Category"]["select"]["name"] == `TeaBackground`).reduce((acc, subCat) => {
-                        acc[subCat["properties"]["Name"]["title"][0]["text"]["content"]] = JSON.parse(subCat["properties"]["Information"]["rich_text"][0]["text"]["content"]);
-                        return acc;
-                    }, {});
+                    try {
+                        this.subTypes[page][type]["background"] = this.options.filter((option) => option["properties"]["Category"]["select"] && option["properties"]["Category"]["select"]["name"] == `${type}Background`).reduce((acc, subCat) => {
+                            acc[subCat["properties"]["Name"]["title"][0]["text"]["content"]] = JSON.parse(subCat["properties"]["Information"]["rich_text"][0]["text"]["content"]);
+                            return acc;
+                        }, {});
+                    } catch {
+                        console.log("Unable to parse background information")
+                    }
                 } else {
                     this.subTypes[page][type] = this.options.filter((option) => option["properties"]["Category"]["select"] && option["properties"]["Category"]["select"]["name"] == type);
                 }
