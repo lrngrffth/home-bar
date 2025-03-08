@@ -3,7 +3,7 @@ import Beans from '../../images/coffee-beans.png'
 function Caffiene({caffieneLevel}) {
   return (
     <>
-      {caffieneLevel == "low" &&
+      {!caffieneLevel || caffieneLevel == "low" &&
         <img src={Beans} alt="coffee beans" className="h-6"/>
       }
       {caffieneLevel == "medium" &&

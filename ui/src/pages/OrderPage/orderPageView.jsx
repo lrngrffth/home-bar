@@ -85,15 +85,19 @@ const MainPage = observer(() => {
                   </>
                 ))
               : 
-              orderPageStore.subTypes[orderPageStore.itemType][orderPageStore.subType[orderPageStore.itemType]]["items"].map((item, key) => (
+              // <>
+              // {console.log(orderPageStore.subTypes[orderPageStore.itemType][orderPageStore.subType[orderPageStore.itemType]]["items"])}
+              // </>
+              (orderPageStore.subTypes[orderPageStore.itemType][orderPageStore.subType[orderPageStore.itemType]]["items"]).map((item, key) => (
                   <div className={clsx("flex flex-col w-full gap-1 py-3 relative active:bg-cotton-candy active:opacity-60", {"text-dusk-rose": item["properties"]["InStock"]["select"]["name"] != "no"})} onClick={() => receiptStore.addItem(item)}>
                     <div className="absolute right-4">{item["price"]}</div>
-                    <div className="flex gap-2 items-center text-2xl pl-4">{item["properties"]["Name"]["title"][0]["plain_text"]}<Caffiene caffieneLevel={item["properties"]["Caffiene"]["select"]["name"]}/></div>
-                    <div className="pl-8">{item["properties"]["Description"]["rich_text"][0]["plain_text"]}</div>
-                    <div className="pl-8 font-bold">{item["properties"]["FlavorNotes"]["rich_text"][0]["plain_text"]}</div>
+                    <div className="flex gap-2 items-center text-2xl pl-4">{item["properties"]["Name"]["title"][0]["plain_text"]}<Caffiene caffieneLevel={item["properties"]["Caffiene"]["select"] ? item["properties"]["Caffiene"]["select"]["name"] : null}/></div>
+                    <div className="pl-8">{item["properties"]["Description"]["rich_text"] ? item["properties"]["Description"]["rich_text"][0]["plain_text"] : ""}</div>
+                    <div className="pl-8 font-bold">{item["properties"]["FlavorNotes"]["rich_text"] ? item["properties"]["FlavorNotes"]["rich_text"][0]["plain_text"] : ""}</div>
                     <div className="pl-8 font-bold">{item["properties"]["Effects"]["rich_text"].length > 0 ? item["properties"]["Effects"]["rich_text"][0]["plain_text"] : ""}</div>
                   </div>
-              ))}
+              ))
+            }
             </div>
           </div>
         </div>

@@ -56,10 +56,11 @@ export default class OrderPageStore {
                         console.log("Unable to parse background information")
                     }
                 } else {
-                    this.subTypes[page][type] = this.options.filter((option) => option["properties"]["Category"]["select"] && option["properties"]["Category"]["select"]["name"] == type);
+                    this.subTypes[page][type]["items"] = this.options.filter((option) => option["properties"]["Category"]["select"] && option["properties"]["Category"]["select"]["name"] == type);
                 }
             });
         });
+        console.log(this.subTypes)
         
         this.subTypes["Bases"]["Specialties"]["items"] = this.options.filter((option) => option["properties"]["Specialty"]["select"] && option["properties"]["Specialty"]["select"]["name"] == "yes")
         this.loading = false;
