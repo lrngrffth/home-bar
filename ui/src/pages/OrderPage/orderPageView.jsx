@@ -46,7 +46,7 @@ const MainPage = observer(() => {
                   <>
                     <div className="relative flex h-12 bg-dusk-rose text-deep-marroon w-full items-center justify-center text-2xl font-abhaya font-bold">
                       {type}
-                      <InfoCircle className="absolute right-4" onClick={() => orderPageStore.openInfoModal(type)}/>
+                      <>{type in orderPageStore.subTypes[orderPageStore.itemType][orderPageStore.subType[orderPageStore.itemType]]["background"] && <InfoCircle className="absolute right-4" onClick={() => orderPageStore.openInfoModal(type)}/>}</>
                     </div>
                     <Modal
                       open={orderPageStore.infoModalOpen != ""}

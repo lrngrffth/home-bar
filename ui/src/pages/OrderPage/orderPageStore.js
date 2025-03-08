@@ -10,7 +10,7 @@ export default class OrderPageStore {
         this.options = [];
         this.loading = false;
         this.subTypes = {
-            "Bases": {"Specialties": {"items": []}, "Tea": {"items": [], "subTypes": true, "background": teaBackground}, "Coffee": {"items": [], "subTypes": true}, "Misc": {"items": []}},
+            "Bases": {"Specialties": {"items": []}, "Tea": {"items": [], "subTypes": true }, "Coffee": {"items": [], "subTypes": true}, "Misc": {"items": []}},
             "Add Ons": {"Syrups": {"items": []}, "Spices": {"items": []}, "Milk and Sugar": {"items": [], "subTypes": true}},
             "Booze": {"Liquor": {"items": [], "subTypes": true}, "Beer and Wine": {"items": [], "subTypes": true}, "Mixed Drinks": {"items": [], "subTypes": true}},
             "Toppings": {"Whipped Topping": {"items": []}, "Garnish": {"items": []}}
@@ -37,14 +37,27 @@ export default class OrderPageStore {
         this.loading = true;
         // this.options = items;
         this.options = (await getItemsFromDatabase({})).map(option => ({...option, ["price"]: ((Math.random() * 4) + 3).toFixed(2)}))
-        this.subTypes["Bases"]["Specialties"]["items"] = this.options.filter((option) => option["properties"]["Specialty"]["select"]["name"] == "yes")
-        this.subTypes["Bases"]["Tea"]["items"] = this.options.filter((option) => option["properties"]["Category"]["select"]["name"] == "Tea").reduce((acc, tea) => {
-            if (!acc[tea["properties"]["SubType"]["select"]["name"]]) {
-                acc[tea["properties"]["SubType"]["select"]["name"]] = [];
-            }
-            acc[tea["properties"]["SubType"]["select"]["name"]].push(tea);
-            return acc;
-        }, {});
+        Object.keys(this.subTypes).map((page, i) => {
+            Object.keys(this.subTypes[page]).map((type, j) => {
+                if (this.subTypes[page][type]["subTypes"] == true) {
+                    this.subTypes[page][type]["items"] = this.options.filter((option) => option["properties"]["Category"]["select"] && option["properties"]["Category"]["select"]["name"] == type).reduce((acc, subCat) => {
+                        if (!acc[subCat["properties"]["SubType"]["select"]["name"]]) {
+                            acc[subCat["properties"]["SubType"]["select"]["name"]] = [];
+                        }
+                        acc[subCat["properties"]["SubType"]["select"]["name"]].push(subCat);
+                        return acc;
+                    }, {});
+                    this.subTypes[page][type]["background"] = this.options.filter((option) => option["properties"]["Category"]["select"] && option["properties"]["Category"]["select"]["name"] == `TeaBackground`).reduce((acc, subCat) => {
+                        acc[subCat["properties"]["Name"]["title"][0]["text"]["content"]] = JSON.parse(subCat["properties"]["Information"]["rich_text"][0]["text"]["content"]);
+                        return acc;
+                    }, {});
+                } else {
+                    this.subTypes[page][type] = this.options.filter((option) => option["properties"]["Category"]["select"] && option["properties"]["Category"]["select"]["name"] == type);
+                }
+            });
+        });
+        
+        this.subTypes["Bases"]["Specialties"]["items"] = this.options.filter((option) => option["properties"]["Specialty"]["select"] && option["properties"]["Specialty"]["select"]["name"] == "yes")
         this.loading = false;
     }
 
