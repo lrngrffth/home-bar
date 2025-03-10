@@ -6,21 +6,32 @@ import clsx from 'clsx';
 import Caffiene from "../../highLevelComponents/CaffieneDisplay/Caffiene";
 import { InfoCircle, Dot, XCircle} from "react-bootstrap-icons"
 import { Modal } from "@mui/material";
+import { useNavigate } from "react-router-dom";
+import Temp from "../../highLevelComponents/TempDisplay/Caffiene";
+
 
 const MainPage = observer(() => {
   // stores
   let rootStore = useContext(RootStoreContext);
   let orderPageStore = rootStore.orderPageStore;
   let receiptStore = rootStore.receiptStore;
+  const navigate = useNavigate();
 
   useEffect(() => {orderPageStore.getSpecialtyDrinks()}, []);
+
   return (
-    <div className="flex items-center justify-center w-full  h-screen">
+    <div className="flex items-center justify-center w-full h-screen max-h-screen overflow-hidden">
       {orderPageStore.loading ? <div>loading</div> :
       <>
-        <div className="flex flex-col w-full min-h-screen max-h-full bg-deep-marroon">
-          <div className="text-dusk-rose font-semibold font-abhaya text-6xl mx-6 mt-4">
-            MENU
+        <div className="flex flex-col w-full h-screen bg-deep-marroon overflow-scroll pb-8">
+          <div className="relative text-dusk-rose font-semibold font-abhaya text-6xl mx-6 mt-4">
+            <div>
+              MENU
+            </div>
+            <div className="flex gap-3 text-dusk-rose font-abhaya text-xl mx-auto mt-3 divide-x absolute right-0 top-0 font-medium">
+              <div className="w-fit pl-3 border-dusk-rose cursor-pointer text-nowrap" onClick={() => navigate('/')}>Home</div>
+              <div className="w-fit pl-3 border-dusk-rose cursor-pointer text-nowrap font-semibold underline">Build My Own</div>
+            </div>
             <hr className=""/>
           </div>
           <div className="flex gap-3 text-dusk-rose font-abhaya text-xl mx-auto mt-3 divide-x">
@@ -40,7 +51,7 @@ const MainPage = observer(() => {
                 </div>
               ))}
             </div>
-            <div className="flex flex-col items-center justify-center border border-dusk-rose text-cotton-candy divide-y divide-dusk-rose overflow-y-scroll">
+            <div className="flex flex-col items-center justify-center border border-dusk-rose text-cotton-candy divide-y divide-dusk-rose overflow-scroll">
               {"subTypes" in orderPageStore.subTypes[orderPageStore.itemType][orderPageStore.subType[orderPageStore.itemType]] && orderPageStore.subTypes[orderPageStore.itemType][orderPageStore.subType[orderPageStore.itemType]]["subTypes"] == true ? 
                 Object.keys(orderPageStore.subTypes[orderPageStore.itemType][orderPageStore.subType[orderPageStore.itemType]]["items"]).map((type, key) => (
                   <>
@@ -74,27 +85,26 @@ const MainPage = observer(() => {
                       </div>
                     </Modal>
                     {orderPageStore.subTypes[orderPageStore.itemType][orderPageStore.subType[orderPageStore.itemType]]["items"][type].map((item, key) => (
-                      <div className={clsx("flex flex-col w-full gap-1 py-3 relative active:bg-cotton-candy active:opacity-60", {"text-dusk-rose": item["properties"]["InStock"]["select"]["name"] != "no"})} onClick={() => receiptStore.addItem(item)}>
+                      <div className={clsx("flex flex-col w-full gap-1 py-3 relative active:bg-cotton-candy active:opacity-60", {"text-dusk-rose": item["properties"]["InStock"]["select"] ? item["properties"]["InStock"]["select"]["name"] != "no" : true})} onClick={() => receiptStore.addItem(item)}>
                         <div className="absolute right-4">{item["price"]}</div>
-                        <div className="flex gap-2 items-center text-2xl pl-4">{item["properties"]["Name"]["title"][0]["plain_text"]}<Caffiene caffieneLevel={item["properties"]["Caffiene"]["select"]["name"]}/></div>
-                        <div className="pl-8">{item["properties"]["Description"]["rich_text"][0]["plain_text"]}</div>
-                        <div className="pl-8 font-bold">{item["properties"]["FlavorNotes"]["rich_text"][0]["plain_text"]}</div>
+                        <div className="flex gap-2 items-center text-2xl pl-4">{item["properties"]["Name"]["title"] ? item["properties"]["Name"]["title"][0]["plain_text"] : ""}<Caffiene caffieneLevel={item["properties"]["Caffiene"]["select"] ? item["properties"]["Caffiene"]["select"]["name"] : null}/></div>
+                        <div className="pl-8">{item["properties"]["Description"]["rich_text"].length > 0 ? item["properties"]["Description"]["rich_text"][0]["plain_text"] : ""}</div>
+                        <div className="pl-8 font-bold">{item["properties"]["FlavorNotes"]["rich_text"].length > 0 ? item["properties"]["FlavorNotes"]["rich_text"][0]["plain_text"] : ""}</div>
                         <div className="pl-8 font-bold">{item["properties"]["Effects"]["rich_text"].length > 0 ? item["properties"]["Effects"]["rich_text"][0]["plain_text"] : ""}</div>
+                        <div className="flex w-full gap-2 items-end justify-end pr-4">{item["properties"]["Temp"]["multi_select"].map((temp, i) => (<Temp temperature={temp}/>))}</div>
                       </div>
                     ))}
                   </>
                 ))
               : 
-              // <>
-              // {console.log(orderPageStore.subTypes[orderPageStore.itemType][orderPageStore.subType[orderPageStore.itemType]]["items"])}
-              // </>
               (orderPageStore.subTypes[orderPageStore.itemType][orderPageStore.subType[orderPageStore.itemType]]["items"]).map((item, key) => (
                   <div className={clsx("flex flex-col w-full gap-1 py-3 relative active:bg-cotton-candy active:opacity-60", {"text-dusk-rose": item["properties"]["InStock"]["select"]["name"] != "no"})} onClick={() => receiptStore.addItem(item)}>
                     <div className="absolute right-4">{item["price"]}</div>
                     <div className="flex gap-2 items-center text-2xl pl-4">{item["properties"]["Name"]["title"][0]["plain_text"]}<Caffiene caffieneLevel={item["properties"]["Caffiene"]["select"] ? item["properties"]["Caffiene"]["select"]["name"] : null}/></div>
-                    <div className="pl-8">{item["properties"]["Description"]["rich_text"] ? item["properties"]["Description"]["rich_text"][0]["plain_text"] : ""}</div>
-                    <div className="pl-8 font-bold">{item["properties"]["FlavorNotes"]["rich_text"] ? item["properties"]["FlavorNotes"]["rich_text"][0]["plain_text"] : ""}</div>
+                    <div className="pl-8">{item["properties"]["Description"]["rich_text"].length > 0 ? item["properties"]["Description"]["rich_text"][0]["plain_text"] : ""}</div>
+                    <div className="pl-8 font-bold">{item["properties"]["FlavorNotes"]["rich_text"].length > 0 ? item["properties"]["FlavorNotes"]["rich_text"][0]["plain_text"] : ""}</div>
                     <div className="pl-8 font-bold">{item["properties"]["Effects"]["rich_text"].length > 0 ? item["properties"]["Effects"]["rich_text"][0]["plain_text"] : ""}</div>
+                    <div className="flex w-full gap-2 items-end justify-end pr-4">{item["properties"]["Temp"]["multi_select"].map((temp, i) => (<Temp temperature={temp}/>))}</div>
                   </div>
               ))
             }

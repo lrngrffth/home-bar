@@ -1,9 +1,3498 @@
 [
         {
             "object": "page",
+            "id": "1b154aaf-8f1b-80cb-9810-fe81814c2fa0",
+            "created_time": "2025-03-09T00:48:00.000Z",
+            "last_edited_time": "2025-03-09T19:01:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "cover": null,
+            "icon": {
+                "type": "external",
+                "external": {
+                    "url": "https://www.notion.so/icons/garlic_gray.svg"
+                }
+            },
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a854aaf-8f1b-806d-bb92-f64eb6235f0d"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3AV~%3E",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "SubType": {
+                    "id": "%3DNyK",
+                    "type": "select",
+                    "select": null
+                },
+                "InStock": {
+                    "id": "A%3Fkv",
+                    "type": "select",
+                    "select": null
+                },
+                "Recipe": {
+                    "id": "I%5Elg",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "{\n\"hot\": {\n\"Ingredients\": [\"1 tsp tea\", \"8 oz water\"],\n\"Directions\": [\"Heat water to 212° F\", \"Steep for 5-7 minutes\"]\n},\n\"cold\": {\n\"Ingredients\": [\"2 tsp tea\", \"8 oz water\", \"ice\"],\n\"Directions\": [\"Heat water to 212° F\", \"Steep for 5-7 minutes\", \"Pour over ice\"]\n}\n}",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "{\n\"hot\": {\n\"Ingredients\": [\"1 tsp tea\", \"8 oz water\"],\n\"Directions\": [\"Heat water to 212° F\", \"Steep for 5-7 minutes\"]\n},\n\"cold\": {\n\"Ingredients\": [\"2 tsp tea\", \"8 oz water\", \"ice\"],\n\"Directions\": [\"Heat water to 212° F\", \"Steep for 5-7 minutes\", \"Pour over ice\"]\n}\n}",
+                            "href": null
+                        }
+                    ]
+                },
+                "Shots": {
+                    "id": "JRfw",
+                    "type": "select",
+                    "select": null
+                },
+                "Caffiene": {
+                    "id": "KTvj",
+                    "type": "select",
+                    "select": null
+                },
+                "Temp": {
+                    "id": "aU%5Dc",
+                    "type": "multi_select",
+                    "multi_select": [
+                        {
+                            "id": "91527866-145d-49b7-beea-139d9d7f7306",
+                            "name": "hot",
+                            "color": "gray"
+                        },
+                        {
+                            "id": "bdef5a5d-faaa-4041-b20a-b93189dda123",
+                            "name": "cold",
+                            "color": "yellow"
+                        }
+                    ]
+                },
+                "Effects": {
+                    "id": "h%5BSK",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "FlavorNotes": {
+                    "id": "jjjE",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Information": {
+                    "id": "k%40WW",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "{\n\"Flavor\": \"made from herbs, flowers, fruits, or spices rather than tea leaves, so it can be smooth, sweet, floral, fruity, earthy, or spicy.\",\n\"Origin\": \"Herbal teas are believed to have originated in China, and the story of tea's discovery is attributed to the second emperor of China, Shen Nung\",\n\"Caffeine and Benefits\": [\"0 mg caffeine per cup\", \"Benefits vary per type\"]\n}",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "{\n\"Flavor\": \"made from herbs, flowers, fruits, or spices rather than tea leaves, so it can be smooth, sweet, floral, fruity, earthy, or spicy.\",\n\"Origin\": \"Herbal teas are believed to have originated in China, and the story of tea's discovery is attributed to the second emperor of China, Shen Nung\",\n\"Caffeine and Benefits\": [\"0 mg caffeine per cup\", \"Benefits vary per type\"]\n}",
+                            "href": null
+                        }
+                    ]
+                },
+                "Category": {
+                    "id": "p%5C%7BT",
+                    "type": "select",
+                    "select": {
+                        "id": "6dda51ec-827d-41e5-9e27-199c7d616a6f",
+                        "name": "TeaBackground",
+                        "color": "pink"
+                    }
+                },
+                "Specialty": {
+                    "id": "~DOX",
+                    "type": "select",
+                    "select": null
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Herbal Tea",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Herbal Tea",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Herbal-Tea-1b154aaf8f1b80cb9810fe81814c2fa0",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "1b154aaf-8f1b-8098-b60f-fa108214ef42",
+            "created_time": "2025-03-09T00:46:00.000Z",
+            "last_edited_time": "2025-03-09T19:01:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "cover": null,
+            "icon": {
+                "type": "external",
+                "external": {
+                    "url": "https://www.notion.so/icons/garlic_gray.svg"
+                }
+            },
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a854aaf-8f1b-806d-bb92-f64eb6235f0d"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3AV~%3E",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "SubType": {
+                    "id": "%3DNyK",
+                    "type": "select",
+                    "select": null
+                },
+                "InStock": {
+                    "id": "A%3Fkv",
+                    "type": "select",
+                    "select": null
+                },
+                "Recipe": {
+                    "id": "I%5Elg",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "{\n\"hot\": {\n\"Ingredients\": [\n\"1 tsp tea\",\n\"8 oz water\"\n],\n\"Directions\": [\n\"Heat water to 212° F\",\n\"Steep for 3-5 minutes\"\n]\n},\n\"cold\": {\n\"Ingredients\": [\n\"2 tsp tea\",\n\"8 oz water\",\n\"ice\"\n],\n\"Directions\": [\n\"Heat water to 212° F\",\n\"Steep for 3-5 minutes\",\n\"Pour over ice\"\n]\n}\n}",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "{\n\"hot\": {\n\"Ingredients\": [\n\"1 tsp tea\",\n\"8 oz water\"\n],\n\"Directions\": [\n\"Heat water to 212° F\",\n\"Steep for 3-5 minutes\"\n]\n},\n\"cold\": {\n\"Ingredients\": [\n\"2 tsp tea\",\n\"8 oz water\",\n\"ice\"\n],\n\"Directions\": [\n\"Heat water to 212° F\",\n\"Steep for 3-5 minutes\",\n\"Pour over ice\"\n]\n}\n}",
+                            "href": null
+                        }
+                    ]
+                },
+                "Shots": {
+                    "id": "JRfw",
+                    "type": "select",
+                    "select": null
+                },
+                "Caffiene": {
+                    "id": "KTvj",
+                    "type": "select",
+                    "select": null
+                },
+                "Temp": {
+                    "id": "aU%5Dc",
+                    "type": "multi_select",
+                    "multi_select": [
+                        {
+                            "id": "91527866-145d-49b7-beea-139d9d7f7306",
+                            "name": "hot",
+                            "color": "gray"
+                        },
+                        {
+                            "id": "bdef5a5d-faaa-4041-b20a-b93189dda123",
+                            "name": "cold",
+                            "color": "yellow"
+                        }
+                    ]
+                },
+                "Effects": {
+                    "id": "h%5BSK",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "FlavorNotes": {
+                    "id": "jjjE",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Information": {
+                    "id": "k%40WW",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "{\n\"Flavor\": \"Bold, malty, earthy, slightly bitter, brisk, and astringent.\",\n\"Origin\": \"Black tea originated in China during the Ming dynasty (1368-1644). It was discovered by accident when tea leaves were exposed to the sun and oxidized, turning them from green to dark red\",\n\"Caffeine and Benefits\": [\"47 mg caffeine per cup\", \"High in antioxidants and improves blood pressure\"]\n}",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "{\n\"Flavor\": \"Bold, malty, earthy, slightly bitter, brisk, and astringent.\",\n\"Origin\": \"Black tea originated in China during the Ming dynasty (1368-1644). It was discovered by accident when tea leaves were exposed to the sun and oxidized, turning them from green to dark red\",\n\"Caffeine and Benefits\": [\"47 mg caffeine per cup\", \"High in antioxidants and improves blood pressure\"]\n}",
+                            "href": null
+                        }
+                    ]
+                },
+                "Category": {
+                    "id": "p%5C%7BT",
+                    "type": "select",
+                    "select": {
+                        "id": "6dda51ec-827d-41e5-9e27-199c7d616a6f",
+                        "name": "TeaBackground",
+                        "color": "pink"
+                    }
+                },
+                "Specialty": {
+                    "id": "~DOX",
+                    "type": "select",
+                    "select": null
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Black Tea",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Black Tea",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Black-Tea-1b154aaf8f1b8098b60ffa108214ef42",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "1b054aaf-8f1b-80f2-9130-f6344ab96ea4",
+            "created_time": "2025-03-08T19:07:00.000Z",
+            "last_edited_time": "2025-03-08T19:07:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "cover": null,
+            "icon": {
+                "type": "external",
+                "external": {
+                    "url": "https://www.notion.so/icons/garlic_gray.svg"
+                }
+            },
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a854aaf-8f1b-806d-bb92-f64eb6235f0d"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3AV~%3E",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Gold dragon jasmine green tea, white lotus",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Gold dragon jasmine green tea, white lotus",
+                            "href": null
+                        }
+                    ]
+                },
+                "SubType": {
+                    "id": "%3DNyK",
+                    "type": "select",
+                    "select": {
+                        "id": "b573e58f-08f3-4be1-a39f-a91b2851f73f",
+                        "name": "Green Tea",
+                        "color": "red"
+                    }
+                },
+                "InStock": {
+                    "id": "A%3Fkv",
+                    "type": "select",
+                    "select": {
+                        "id": "c43f1db3-5b9e-43e3-aab7-b99ca9b6bd46",
+                        "name": "yes",
+                        "color": "green"
+                    }
+                },
+                "Recipe": {
+                    "id": "I%5Elg",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Shots": {
+                    "id": "JRfw",
+                    "type": "select",
+                    "select": null
+                },
+                "Caffiene": {
+                    "id": "KTvj",
+                    "type": "select",
+                    "select": null
+                },
+                "Temp": {
+                    "id": "aU%5Dc",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "Effects": {
+                    "id": "h%5BSK",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "FlavorNotes": {
+                    "id": "jjjE",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Information": {
+                    "id": "k%40WW",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Category": {
+                    "id": "p%5C%7BT",
+                    "type": "select",
+                    "select": {
+                        "id": "b6d20f67-9d4e-46ba-9e68-b1db92367f67",
+                        "name": "Tea",
+                        "color": "brown"
+                    }
+                },
+                "Specialty": {
+                    "id": "~DOX",
+                    "type": "select",
+                    "select": null
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Iroh’s Blend",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Iroh’s Blend",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Iroh-s-Blend-1b054aaf8f1b80f29130f6344ab96ea4",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "1b054aaf-8f1b-80e7-be6f-fe65ab8cb0d3",
+            "created_time": "2025-03-08T19:07:00.000Z",
+            "last_edited_time": "2025-03-08T19:07:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "cover": null,
+            "icon": {
+                "type": "external",
+                "external": {
+                    "url": "https://www.notion.so/icons/garlic_gray.svg"
+                }
+            },
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a854aaf-8f1b-806d-bb92-f64eb6235f0d"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3AV~%3E",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "SubType": {
+                    "id": "%3DNyK",
+                    "type": "select",
+                    "select": {
+                        "id": "f9fe6791-8159-4ab8-bc5e-16763c9195fe",
+                        "name": "Black Tea",
+                        "color": "default"
+                    }
+                },
+                "InStock": {
+                    "id": "A%3Fkv",
+                    "type": "select",
+                    "select": {
+                        "id": "c43f1db3-5b9e-43e3-aab7-b99ca9b6bd46",
+                        "name": "yes",
+                        "color": "green"
+                    }
+                },
+                "Recipe": {
+                    "id": "I%5Elg",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Shots": {
+                    "id": "JRfw",
+                    "type": "select",
+                    "select": null
+                },
+                "Caffiene": {
+                    "id": "KTvj",
+                    "type": "select",
+                    "select": null
+                },
+                "Temp": {
+                    "id": "aU%5Dc",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "Effects": {
+                    "id": "h%5BSK",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "FlavorNotes": {
+                    "id": "jjjE",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Information": {
+                    "id": "k%40WW",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Category": {
+                    "id": "p%5C%7BT",
+                    "type": "select",
+                    "select": {
+                        "id": "b6d20f67-9d4e-46ba-9e68-b1db92367f67",
+                        "name": "Tea",
+                        "color": "brown"
+                    }
+                },
+                "Specialty": {
+                    "id": "~DOX",
+                    "type": "select",
+                    "select": null
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Hibiscus & Rosehips",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Hibiscus & Rosehips",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Hibiscus-Rosehips-1b054aaf8f1b80e7be6ffe65ab8cb0d3",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "1b054aaf-8f1b-8079-a8ab-e58d5d7bb387",
+            "created_time": "2025-03-08T19:06:00.000Z",
+            "last_edited_time": "2025-03-08T19:06:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "cover": null,
+            "icon": {
+                "type": "external",
+                "external": {
+                    "url": "https://www.notion.so/icons/garlic_gray.svg"
+                }
+            },
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a854aaf-8f1b-806d-bb92-f64eb6235f0d"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3AV~%3E",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "SubType": {
+                    "id": "%3DNyK",
+                    "type": "select",
+                    "select": {
+                        "id": "f9fe6791-8159-4ab8-bc5e-16763c9195fe",
+                        "name": "Black Tea",
+                        "color": "default"
+                    }
+                },
+                "InStock": {
+                    "id": "A%3Fkv",
+                    "type": "select",
+                    "select": {
+                        "id": "c43f1db3-5b9e-43e3-aab7-b99ca9b6bd46",
+                        "name": "yes",
+                        "color": "green"
+                    }
+                },
+                "Recipe": {
+                    "id": "I%5Elg",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Shots": {
+                    "id": "JRfw",
+                    "type": "select",
+                    "select": null
+                },
+                "Caffiene": {
+                    "id": "KTvj",
+                    "type": "select",
+                    "select": null
+                },
+                "Temp": {
+                    "id": "aU%5Dc",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "Effects": {
+                    "id": "h%5BSK",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "FlavorNotes": {
+                    "id": "jjjE",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Information": {
+                    "id": "k%40WW",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Category": {
+                    "id": "p%5C%7BT",
+                    "type": "select",
+                    "select": {
+                        "id": "b6d20f67-9d4e-46ba-9e68-b1db92367f67",
+                        "name": "Tea",
+                        "color": "brown"
+                    }
+                },
+                "Specialty": {
+                    "id": "~DOX",
+                    "type": "select",
+                    "select": null
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Earl Grey Lavender",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Earl Grey Lavender",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Earl-Grey-Lavender-1b054aaf8f1b8079a8abe58d5d7bb387",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "1b054aaf-8f1b-8099-af2c-f1144a88ef5e",
+            "created_time": "2025-03-08T19:06:00.000Z",
+            "last_edited_time": "2025-03-08T19:06:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "cover": null,
+            "icon": {
+                "type": "external",
+                "external": {
+                    "url": "https://www.notion.so/icons/garlic_gray.svg"
+                }
+            },
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a854aaf-8f1b-806d-bb92-f64eb6235f0d"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3AV~%3E",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "SubType": {
+                    "id": "%3DNyK",
+                    "type": "select",
+                    "select": {
+                        "id": "f9fe6791-8159-4ab8-bc5e-16763c9195fe",
+                        "name": "Black Tea",
+                        "color": "default"
+                    }
+                },
+                "InStock": {
+                    "id": "A%3Fkv",
+                    "type": "select",
+                    "select": {
+                        "id": "c43f1db3-5b9e-43e3-aab7-b99ca9b6bd46",
+                        "name": "yes",
+                        "color": "green"
+                    }
+                },
+                "Recipe": {
+                    "id": "I%5Elg",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Shots": {
+                    "id": "JRfw",
+                    "type": "select",
+                    "select": null
+                },
+                "Caffiene": {
+                    "id": "KTvj",
+                    "type": "select",
+                    "select": null
+                },
+                "Temp": {
+                    "id": "aU%5Dc",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "Effects": {
+                    "id": "h%5BSK",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "FlavorNotes": {
+                    "id": "jjjE",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Information": {
+                    "id": "k%40WW",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Category": {
+                    "id": "p%5C%7BT",
+                    "type": "select",
+                    "select": {
+                        "id": "b6d20f67-9d4e-46ba-9e68-b1db92367f67",
+                        "name": "Tea",
+                        "color": "brown"
+                    }
+                },
+                "Specialty": {
+                    "id": "~DOX",
+                    "type": "select",
+                    "select": null
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Peach Oolong",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Peach Oolong",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Peach-Oolong-1b054aaf8f1b8099af2cf1144a88ef5e",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "1b054aaf-8f1b-804e-8458-cc18df06cf15",
+            "created_time": "2025-03-08T19:03:00.000Z",
+            "last_edited_time": "2025-03-08T20:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "cover": null,
+            "icon": {
+                "type": "external",
+                "external": {
+                    "url": "https://www.notion.so/icons/garlic_gray.svg"
+                }
+            },
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a854aaf-8f1b-806d-bb92-f64eb6235f0d"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3AV~%3E",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Blend of strong black tea, vanilla bean, cardamom and anise",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Blend of strong black tea, vanilla bean, cardamom and anise",
+                            "href": null
+                        }
+                    ]
+                },
+                "SubType": {
+                    "id": "%3DNyK",
+                    "type": "select",
+                    "select": {
+                        "id": "f9fe6791-8159-4ab8-bc5e-16763c9195fe",
+                        "name": "Black Tea",
+                        "color": "default"
+                    }
+                },
+                "InStock": {
+                    "id": "A%3Fkv",
+                    "type": "select",
+                    "select": {
+                        "id": "c43f1db3-5b9e-43e3-aab7-b99ca9b6bd46",
+                        "name": "yes",
+                        "color": "green"
+                    }
+                },
+                "Recipe": {
+                    "id": "I%5Elg",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Shots": {
+                    "id": "JRfw",
+                    "type": "select",
+                    "select": null
+                },
+                "Caffiene": {
+                    "id": "KTvj",
+                    "type": "select",
+                    "select": {
+                        "id": "42f50e47-b684-45cf-8200-f4cae393249d",
+                        "name": "medium",
+                        "color": "gray"
+                    }
+                },
+                "Temp": {
+                    "id": "aU%5Dc",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "Effects": {
+                    "id": "h%5BSK",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "FlavorNotes": {
+                    "id": "jjjE",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "strong (yet not bitter) tea taste, flavor notes of warm honey & vanilla, creamy consistency, and almost milkshake-like sweetness",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "strong (yet not bitter) tea taste, flavor notes of warm honey & vanilla, creamy consistency, and almost milkshake-like sweetness",
+                            "href": null
+                        }
+                    ]
+                },
+                "Information": {
+                    "id": "k%40WW",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Category": {
+                    "id": "p%5C%7BT",
+                    "type": "select",
+                    "select": {
+                        "id": "b6d20f67-9d4e-46ba-9e68-b1db92367f67",
+                        "name": "Tea",
+                        "color": "brown"
+                    }
+                },
+                "Specialty": {
+                    "id": "~DOX",
+                    "type": "select",
+                    "select": null
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Thai",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Thai",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Thai-1b054aaf8f1b804e8458cc18df06cf15",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "1b054aaf-8f1b-803c-b9a1-c3d6e3ebe78c",
+            "created_time": "2025-03-08T19:00:00.000Z",
+            "last_edited_time": "2025-03-08T19:01:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "cover": null,
+            "icon": {
+                "type": "external",
+                "external": {
+                    "url": "https://www.notion.so/icons/garlic_gray.svg"
+                }
+            },
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a854aaf-8f1b-806d-bb92-f64eb6235f0d"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3AV~%3E",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Butterfly Pea flowers",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Butterfly Pea flowers",
+                            "href": null
+                        }
+                    ]
+                },
+                "SubType": {
+                    "id": "%3DNyK",
+                    "type": "select",
+                    "select": {
+                        "id": "95a774e9-0bc3-49d6-87d9-c28aae612fd8",
+                        "name": "Herbal Tea",
+                        "color": "pink"
+                    }
+                },
+                "InStock": {
+                    "id": "A%3Fkv",
+                    "type": "select",
+                    "select": {
+                        "id": "c43f1db3-5b9e-43e3-aab7-b99ca9b6bd46",
+                        "name": "yes",
+                        "color": "green"
+                    }
+                },
+                "Recipe": {
+                    "id": "I%5Elg",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Shots": {
+                    "id": "JRfw",
+                    "type": "select",
+                    "select": null
+                },
+                "Caffiene": {
+                    "id": "KTvj",
+                    "type": "select",
+                    "select": {
+                        "id": "20009923-fb50-431e-ad9c-dd617ec0431d",
+                        "name": "none",
+                        "color": "purple"
+                    }
+                },
+                "Temp": {
+                    "id": "aU%5Dc",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "Effects": {
+                    "id": "h%5BSK",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Color changing blue → purple when mixed with acid",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Color changing blue → purple when mixed with acid",
+                            "href": null
+                        }
+                    ]
+                },
+                "FlavorNotes": {
+                    "id": "jjjE",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "mild floral flavor, earthy",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "mild floral flavor, earthy",
+                            "href": null
+                        }
+                    ]
+                },
+                "Information": {
+                    "id": "k%40WW",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Category": {
+                    "id": "p%5C%7BT",
+                    "type": "select",
+                    "select": {
+                        "id": "b6d20f67-9d4e-46ba-9e68-b1db92367f67",
+                        "name": "Tea",
+                        "color": "brown"
+                    }
+                },
+                "Specialty": {
+                    "id": "~DOX",
+                    "type": "select",
+                    "select": null
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Butterfly Blue Pea Flower",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Butterfly Blue Pea Flower",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Butterfly-Blue-Pea-Flower-1b054aaf8f1b803cb9a1c3d6e3ebe78c",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "1b054aaf-8f1b-802e-b94b-d0bc0675ca80",
+            "created_time": "2025-03-08T18:59:00.000Z",
+            "last_edited_time": "2025-03-08T18:59:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "cover": null,
+            "icon": {
+                "type": "external",
+                "external": {
+                    "url": "https://www.notion.so/icons/garlic_gray.svg"
+                }
+            },
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a854aaf-8f1b-806d-bb92-f64eb6235f0d"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3AV~%3E",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Black tea",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Black tea",
+                            "href": null
+                        }
+                    ]
+                },
+                "SubType": {
+                    "id": "%3DNyK",
+                    "type": "select",
+                    "select": {
+                        "id": "f9fe6791-8159-4ab8-bc5e-16763c9195fe",
+                        "name": "Black Tea",
+                        "color": "default"
+                    }
+                },
+                "InStock": {
+                    "id": "A%3Fkv",
+                    "type": "select",
+                    "select": {
+                        "id": "c43f1db3-5b9e-43e3-aab7-b99ca9b6bd46",
+                        "name": "yes",
+                        "color": "green"
+                    }
+                },
+                "Recipe": {
+                    "id": "I%5Elg",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Shots": {
+                    "id": "JRfw",
+                    "type": "select",
+                    "select": null
+                },
+                "Caffiene": {
+                    "id": "KTvj",
+                    "type": "select",
+                    "select": {
+                        "id": "42f50e47-b684-45cf-8200-f4cae393249d",
+                        "name": "medium",
+                        "color": "gray"
+                    }
+                },
+                "Temp": {
+                    "id": "aU%5Dc",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "Effects": {
+                    "id": "h%5BSK",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "FlavorNotes": {
+                    "id": "jjjE",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "This medium-bodied Artisan House breakfast blend is rich and smooth with tannin notes and an oaky finish.",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "This medium-bodied Artisan House breakfast blend is rich and smooth with tannin notes and an oaky finish.",
+                            "href": null
+                        }
+                    ]
+                },
+                "Information": {
+                    "id": "k%40WW",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Category": {
+                    "id": "p%5C%7BT",
+                    "type": "select",
+                    "select": {
+                        "id": "b6d20f67-9d4e-46ba-9e68-b1db92367f67",
+                        "name": "Tea",
+                        "color": "brown"
+                    }
+                },
+                "Specialty": {
+                    "id": "~DOX",
+                    "type": "select",
+                    "select": {
+                        "id": "07ae11d7-da8a-4e75-ba15-6018d47b15d6",
+                        "name": "yes",
+                        "color": "orange"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "French Breakfast",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "French Breakfast",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/French-Breakfast-1b054aaf8f1b802eb94bd0bc0675ca80",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "1b054aaf-8f1b-8016-aeed-ddbfea99fc1c",
+            "created_time": "2025-03-08T18:58:00.000Z",
+            "last_edited_time": "2025-03-08T18:58:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "cover": null,
+            "icon": {
+                "type": "external",
+                "external": {
+                    "url": "https://www.notion.so/icons/garlic_gray.svg"
+                }
+            },
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a854aaf-8f1b-806d-bb92-f64eb6235f0d"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3AV~%3E",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "black tea, chocolate cocoa",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "black tea, chocolate cocoa",
+                            "href": null
+                        }
+                    ]
+                },
+                "SubType": {
+                    "id": "%3DNyK",
+                    "type": "select",
+                    "select": {
+                        "id": "f9fe6791-8159-4ab8-bc5e-16763c9195fe",
+                        "name": "Black Tea",
+                        "color": "default"
+                    }
+                },
+                "InStock": {
+                    "id": "A%3Fkv",
+                    "type": "select",
+                    "select": {
+                        "id": "c43f1db3-5b9e-43e3-aab7-b99ca9b6bd46",
+                        "name": "yes",
+                        "color": "green"
+                    }
+                },
+                "Recipe": {
+                    "id": "I%5Elg",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Shots": {
+                    "id": "JRfw",
+                    "type": "select",
+                    "select": null
+                },
+                "Caffiene": {
+                    "id": "KTvj",
+                    "type": "select",
+                    "select": {
+                        "id": "42f50e47-b684-45cf-8200-f4cae393249d",
+                        "name": "medium",
+                        "color": "gray"
+                    }
+                },
+                "Temp": {
+                    "id": "aU%5Dc",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "Effects": {
+                    "id": "h%5BSK",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "FlavorNotes": {
+                    "id": "jjjE",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Ceylon black tea blended with Belgian chocolate pieces.",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Ceylon black tea blended with Belgian chocolate pieces.",
+                            "href": null
+                        }
+                    ]
+                },
+                "Information": {
+                    "id": "k%40WW",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Category": {
+                    "id": "p%5C%7BT",
+                    "type": "select",
+                    "select": {
+                        "id": "b6d20f67-9d4e-46ba-9e68-b1db92367f67",
+                        "name": "Tea",
+                        "color": "brown"
+                    }
+                },
+                "Specialty": {
+                    "id": "~DOX",
+                    "type": "select",
+                    "select": null
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Chocolate Drizzle",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Chocolate Drizzle",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Chocolate-Drizzle-1b054aaf8f1b8016aeedddbfea99fc1c",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "1b054aaf-8f1b-80d3-86a0-e6b3fec4b537",
+            "created_time": "2025-03-08T18:55:00.000Z",
+            "last_edited_time": "2025-03-08T18:57:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "cover": null,
+            "icon": {
+                "type": "external",
+                "external": {
+                    "url": "https://www.notion.so/icons/garlic_gray.svg"
+                }
+            },
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a854aaf-8f1b-806d-bb92-f64eb6235f0d"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3AV~%3E",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "black tea, blueberry, lemon verbena, cornflower petals, blackberry leaves",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "black tea, blueberry, lemon verbena, cornflower petals, blackberry leaves",
+                            "href": null
+                        }
+                    ]
+                },
+                "SubType": {
+                    "id": "%3DNyK",
+                    "type": "select",
+                    "select": {
+                        "id": "f9fe6791-8159-4ab8-bc5e-16763c9195fe",
+                        "name": "Black Tea",
+                        "color": "default"
+                    }
+                },
+                "InStock": {
+                    "id": "A%3Fkv",
+                    "type": "select",
+                    "select": {
+                        "id": "c43f1db3-5b9e-43e3-aab7-b99ca9b6bd46",
+                        "name": "yes",
+                        "color": "green"
+                    }
+                },
+                "Recipe": {
+                    "id": "I%5Elg",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Shots": {
+                    "id": "JRfw",
+                    "type": "select",
+                    "select": null
+                },
+                "Caffiene": {
+                    "id": "KTvj",
+                    "type": "select",
+                    "select": {
+                        "id": "42f50e47-b684-45cf-8200-f4cae393249d",
+                        "name": "medium",
+                        "color": "gray"
+                    }
+                },
+                "Temp": {
+                    "id": "aU%5Dc",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "Effects": {
+                    "id": "h%5BSK",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "FlavorNotes": {
+                    "id": "jjjE",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Fruity, Citrusy",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Fruity, Citrusy",
+                            "href": null
+                        }
+                    ]
+                },
+                "Information": {
+                    "id": "k%40WW",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Category": {
+                    "id": "p%5C%7BT",
+                    "type": "select",
+                    "select": {
+                        "id": "b6d20f67-9d4e-46ba-9e68-b1db92367f67",
+                        "name": "Tea",
+                        "color": "brown"
+                    }
+                },
+                "Specialty": {
+                    "id": "~DOX",
+                    "type": "select",
+                    "select": {
+                        "id": "07ae11d7-da8a-4e75-ba15-6018d47b15d6",
+                        "name": "yes",
+                        "color": "orange"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Blueberry Lemon",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Blueberry Lemon",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Blueberry-Lemon-1b054aaf8f1b80d386a0e6b3fec4b537",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "1b054aaf-8f1b-806e-b0d7-f350b66865f3",
+            "created_time": "2025-03-08T18:46:00.000Z",
+            "last_edited_time": "2025-03-08T18:55:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "cover": null,
+            "icon": {
+                "type": "external",
+                "external": {
+                    "url": "https://www.notion.so/icons/garlic_gray.svg"
+                }
+            },
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a854aaf-8f1b-806d-bb92-f64eb6235f0d"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3AV~%3E",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "black tea, marigold, natural flavor",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "black tea, marigold, natural flavor",
+                            "href": null
+                        }
+                    ]
+                },
+                "SubType": {
+                    "id": "%3DNyK",
+                    "type": "select",
+                    "select": {
+                        "id": "f9fe6791-8159-4ab8-bc5e-16763c9195fe",
+                        "name": "Black Tea",
+                        "color": "default"
+                    }
+                },
+                "InStock": {
+                    "id": "A%3Fkv",
+                    "type": "select",
+                    "select": {
+                        "id": "c43f1db3-5b9e-43e3-aab7-b99ca9b6bd46",
+                        "name": "yes",
+                        "color": "green"
+                    }
+                },
+                "Recipe": {
+                    "id": "I%5Elg",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Shots": {
+                    "id": "JRfw",
+                    "type": "select",
+                    "select": null
+                },
+                "Caffiene": {
+                    "id": "KTvj",
+                    "type": "select",
+                    "select": {
+                        "id": "42f50e47-b684-45cf-8200-f4cae393249d",
+                        "name": "medium",
+                        "color": "gray"
+                    }
+                },
+                "Temp": {
+                    "id": "aU%5Dc",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "Effects": {
+                    "id": "h%5BSK",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "FlavorNotes": {
+                    "id": "jjjE",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Sweet, Creamy",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Sweet, Creamy",
+                            "href": null
+                        }
+                    ]
+                },
+                "Information": {
+                    "id": "k%40WW",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Category": {
+                    "id": "p%5C%7BT",
+                    "type": "select",
+                    "select": {
+                        "id": "b6d20f67-9d4e-46ba-9e68-b1db92367f67",
+                        "name": "Tea",
+                        "color": "brown"
+                    }
+                },
+                "Specialty": {
+                    "id": "~DOX",
+                    "type": "select",
+                    "select": null
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Creme Brûlée Tea",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Creme Brûlée Tea",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Creme-Br-l-e-Tea-1b054aaf8f1b806eb0d7f350b66865f3",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "1b054aaf-8f1b-80e6-a0ce-f30fdd06e63a",
+            "created_time": "2025-03-08T04:16:00.000Z",
+            "last_edited_time": "2025-03-09T01:36:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "cover": null,
+            "icon": {
+                "type": "external",
+                "external": {
+                    "url": "https://www.notion.so/icons/garlic_gray.svg"
+                }
+            },
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a854aaf-8f1b-806d-bb92-f64eb6235f0d"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3AV~%3E",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "SubType": {
+                    "id": "%3DNyK",
+                    "type": "select",
+                    "select": {
+                        "id": "f06e3062-80bd-4c9d-9913-32c59c3fe759",
+                        "name": "Milk",
+                        "color": "green"
+                    }
+                },
+                "InStock": {
+                    "id": "A%3Fkv",
+                    "type": "select",
+                    "select": {
+                        "id": "c43f1db3-5b9e-43e3-aab7-b99ca9b6bd46",
+                        "name": "yes",
+                        "color": "green"
+                    }
+                },
+                "Recipe": {
+                    "id": "I%5Elg",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Shots": {
+                    "id": "JRfw",
+                    "type": "select",
+                    "select": null
+                },
+                "Caffiene": {
+                    "id": "KTvj",
+                    "type": "select",
+                    "select": null
+                },
+                "Temp": {
+                    "id": "aU%5Dc",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "Effects": {
+                    "id": "h%5BSK",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "FlavorNotes": {
+                    "id": "jjjE",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Information": {
+                    "id": "k%40WW",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Category": {
+                    "id": "p%5C%7BT",
+                    "type": "select",
+                    "select": {
+                        "id": "e57fbfd3-9793-4087-9838-f17ea2e6b325",
+                        "name": "Milk and Sugar",
+                        "color": "green"
+                    }
+                },
+                "Specialty": {
+                    "id": "~DOX",
+                    "type": "select",
+                    "select": null
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "2% Milk",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "2% Milk",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/2-Milk-1b054aaf8f1b80e6a0cef30fdd06e63a",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "1b054aaf-8f1b-80f8-b9d0-ea4c7197145a",
+            "created_time": "2025-03-08T04:14:00.000Z",
+            "last_edited_time": "2025-03-08T04:15:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "cover": null,
+            "icon": {
+                "type": "external",
+                "external": {
+                    "url": "https://www.notion.so/icons/garlic_gray.svg"
+                }
+            },
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a854aaf-8f1b-806d-bb92-f64eb6235f0d"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3AV~%3E",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "SubType": {
+                    "id": "%3DNyK",
+                    "type": "select",
+                    "select": {
+                        "id": "f06e3062-80bd-4c9d-9913-32c59c3fe759",
+                        "name": "Milk",
+                        "color": "green"
+                    }
+                },
+                "InStock": {
+                    "id": "A%3Fkv",
+                    "type": "select",
+                    "select": {
+                        "id": "c43f1db3-5b9e-43e3-aab7-b99ca9b6bd46",
+                        "name": "yes",
+                        "color": "green"
+                    }
+                },
+                "Recipe": {
+                    "id": "I%5Elg",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Shots": {
+                    "id": "JRfw",
+                    "type": "select",
+                    "select": null
+                },
+                "Caffiene": {
+                    "id": "KTvj",
+                    "type": "select",
+                    "select": null
+                },
+                "Temp": {
+                    "id": "aU%5Dc",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "Effects": {
+                    "id": "h%5BSK",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "FlavorNotes": {
+                    "id": "jjjE",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Information": {
+                    "id": "k%40WW",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Category": {
+                    "id": "p%5C%7BT",
+                    "type": "select",
+                    "select": {
+                        "id": "e57fbfd3-9793-4087-9838-f17ea2e6b325",
+                        "name": "Milk and Sugar",
+                        "color": "green"
+                    }
+                },
+                "Specialty": {
+                    "id": "~DOX",
+                    "type": "select",
+                    "select": null
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Heavy Cream",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Heavy Cream",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Heavy-Cream-1b054aaf8f1b80f8b9d0ea4c7197145a",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "1b054aaf-8f1b-80c2-90d4-dc76614b2ed2",
+            "created_time": "2025-03-08T04:11:00.000Z",
+            "last_edited_time": "2025-03-08T04:12:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "cover": null,
+            "icon": {
+                "type": "external",
+                "external": {
+                    "url": "https://www.notion.so/icons/garlic_gray.svg"
+                }
+            },
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a854aaf-8f1b-806d-bb92-f64eb6235f0d"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3AV~%3E",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Brown sugar, heavy cream, butter, vanilla, salt",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Brown sugar, heavy cream, butter, vanilla, salt",
+                            "href": null
+                        }
+                    ]
+                },
+                "SubType": {
+                    "id": "%3DNyK",
+                    "type": "select",
+                    "select": null
+                },
+                "InStock": {
+                    "id": "A%3Fkv",
+                    "type": "select",
+                    "select": {
+                        "id": "c43f1db3-5b9e-43e3-aab7-b99ca9b6bd46",
+                        "name": "yes",
+                        "color": "green"
+                    }
+                },
+                "Recipe": {
+                    "id": "I%5Elg",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Shots": {
+                    "id": "JRfw",
+                    "type": "select",
+                    "select": null
+                },
+                "Caffiene": {
+                    "id": "KTvj",
+                    "type": "select",
+                    "select": null
+                },
+                "Temp": {
+                    "id": "aU%5Dc",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "Effects": {
+                    "id": "h%5BSK",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "FlavorNotes": {
+                    "id": "jjjE",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Sweet, Salty, Caramel",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Sweet, Salty, Caramel",
+                            "href": null
+                        }
+                    ]
+                },
+                "Information": {
+                    "id": "k%40WW",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Category": {
+                    "id": "p%5C%7BT",
+                    "type": "select",
+                    "select": {
+                        "id": "b0d6bfaf-ad0b-494c-8951-397709917db5",
+                        "name": "Syrups",
+                        "color": "gray"
+                    }
+                },
+                "Specialty": {
+                    "id": "~DOX",
+                    "type": "select",
+                    "select": null
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Caramel Syrup",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Caramel Syrup",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Caramel-Syrup-1b054aaf8f1b80c290d4dc76614b2ed2",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "1b054aaf-8f1b-80dc-b5e7-e8c0e4894b03",
+            "created_time": "2025-03-08T04:09:00.000Z",
+            "last_edited_time": "2025-03-08T04:11:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "cover": null,
+            "icon": {
+                "type": "external",
+                "external": {
+                    "url": "https://www.notion.so/icons/garlic_gray.svg"
+                }
+            },
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a854aaf-8f1b-806d-bb92-f64eb6235f0d"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3AV~%3E",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Roasted hazelnuts, sugar, vanilla",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Roasted hazelnuts, sugar, vanilla",
+                            "href": null
+                        }
+                    ]
+                },
+                "SubType": {
+                    "id": "%3DNyK",
+                    "type": "select",
+                    "select": null
+                },
+                "InStock": {
+                    "id": "A%3Fkv",
+                    "type": "select",
+                    "select": {
+                        "id": "c43f1db3-5b9e-43e3-aab7-b99ca9b6bd46",
+                        "name": "yes",
+                        "color": "green"
+                    }
+                },
+                "Recipe": {
+                    "id": "I%5Elg",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Shots": {
+                    "id": "JRfw",
+                    "type": "select",
+                    "select": null
+                },
+                "Caffiene": {
+                    "id": "KTvj",
+                    "type": "select",
+                    "select": null
+                },
+                "Temp": {
+                    "id": "aU%5Dc",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "Effects": {
+                    "id": "h%5BSK",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "FlavorNotes": {
+                    "id": "jjjE",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Nutty, Sweet",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Nutty, Sweet",
+                            "href": null
+                        }
+                    ]
+                },
+                "Information": {
+                    "id": "k%40WW",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Category": {
+                    "id": "p%5C%7BT",
+                    "type": "select",
+                    "select": {
+                        "id": "b0d6bfaf-ad0b-494c-8951-397709917db5",
+                        "name": "Syrups",
+                        "color": "gray"
+                    }
+                },
+                "Specialty": {
+                    "id": "~DOX",
+                    "type": "select",
+                    "select": null
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Hazelnut Syrup",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Hazelnut Syrup",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Hazelnut-Syrup-1b054aaf8f1b80dcb5e7e8c0e4894b03",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "1b054aaf-8f1b-804b-9904-cf63d2eccadc",
+            "created_time": "2025-03-08T04:06:00.000Z",
+            "last_edited_time": "2025-03-08T22:08:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "cover": null,
+            "icon": {
+                "type": "external",
+                "external": {
+                    "url": "https://www.notion.so/icons/garlic_gray.svg"
+                }
+            },
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a854aaf-8f1b-806d-bb92-f64eb6235f0d"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3AV~%3E",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Dried Raspberry leaves",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Dried Raspberry leaves",
+                            "href": null
+                        }
+                    ]
+                },
+                "SubType": {
+                    "id": "%3DNyK",
+                    "type": "select",
+                    "select": {
+                        "id": "95a774e9-0bc3-49d6-87d9-c28aae612fd8",
+                        "name": "Herbal Tea",
+                        "color": "pink"
+                    }
+                },
+                "InStock": {
+                    "id": "A%3Fkv",
+                    "type": "select",
+                    "select": {
+                        "id": "c43f1db3-5b9e-43e3-aab7-b99ca9b6bd46",
+                        "name": "yes",
+                        "color": "green"
+                    }
+                },
+                "Recipe": {
+                    "id": "I%5Elg",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Shots": {
+                    "id": "JRfw",
+                    "type": "select",
+                    "select": null
+                },
+                "Caffiene": {
+                    "id": "KTvj",
+                    "type": "select",
+                    "select": {
+                        "id": "20009923-fb50-431e-ad9c-dd617ec0431d",
+                        "name": "none",
+                        "color": "purple"
+                    }
+                },
+                "Temp": {
+                    "id": "aU%5Dc",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "Effects": {
+                    "id": "h%5BSK",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Menstrual pain relief, Indigestion relief, High in vitamins A, B, C and E",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Menstrual pain relief, Indigestion relief, High in vitamins A, B, C and E",
+                            "href": null
+                        }
+                    ]
+                },
+                "FlavorNotes": {
+                    "id": "jjjE",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Herby, Sweet, Fruity, Tannic",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Herby, Sweet, Fruity, Tannic",
+                            "href": null
+                        }
+                    ]
+                },
+                "Information": {
+                    "id": "k%40WW",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Category": {
+                    "id": "p%5C%7BT",
+                    "type": "select",
+                    "select": {
+                        "id": "b6d20f67-9d4e-46ba-9e68-b1db92367f67",
+                        "name": "Tea",
+                        "color": "brown"
+                    }
+                },
+                "Specialty": {
+                    "id": "~DOX",
+                    "type": "select",
+                    "select": null
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Raspberry Leaf Tea",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Raspberry Leaf Tea",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Raspberry-Leaf-Tea-1b054aaf8f1b804b9904cf63d2eccadc",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "1b054aaf-8f1b-80cb-bfd6-c3c24c8ffd4a",
+            "created_time": "2025-03-08T04:04:00.000Z",
+            "last_edited_time": "2025-03-08T22:08:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "cover": null,
+            "icon": {
+                "type": "external",
+                "external": {
+                    "url": "https://www.notion.so/icons/garlic_gray.svg"
+                }
+            },
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a854aaf-8f1b-806d-bb92-f64eb6235f0d"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3AV~%3E",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Powdered Matcha",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Powdered Matcha",
+                            "href": null
+                        }
+                    ]
+                },
+                "SubType": {
+                    "id": "%3DNyK",
+                    "type": "select",
+                    "select": {
+                        "id": "b573e58f-08f3-4be1-a39f-a91b2851f73f",
+                        "name": "Green Tea",
+                        "color": "red"
+                    }
+                },
+                "InStock": {
+                    "id": "A%3Fkv",
+                    "type": "select",
+                    "select": {
+                        "id": "c43f1db3-5b9e-43e3-aab7-b99ca9b6bd46",
+                        "name": "yes",
+                        "color": "green"
+                    }
+                },
+                "Recipe": {
+                    "id": "I%5Elg",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Shots": {
+                    "id": "JRfw",
+                    "type": "select",
+                    "select": null
+                },
+                "Caffiene": {
+                    "id": "KTvj",
+                    "type": "select",
+                    "select": {
+                        "id": "bf3b0fdc-31a6-4152-99bd-310533f5326b",
+                        "name": "high",
+                        "color": "pink"
+                    }
+                },
+                "Temp": {
+                    "id": "aU%5Dc",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "Effects": {
+                    "id": "h%5BSK",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Invigorating",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Invigorating",
+                            "href": null
+                        }
+                    ]
+                },
+                "FlavorNotes": {
+                    "id": "jjjE",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Vegetal, Umami, Sweet, Bitter",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Vegetal, Umami, Sweet, Bitter",
+                            "href": null
+                        }
+                    ]
+                },
+                "Information": {
+                    "id": "k%40WW",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Category": {
+                    "id": "p%5C%7BT",
+                    "type": "select",
+                    "select": {
+                        "id": "b6d20f67-9d4e-46ba-9e68-b1db92367f67",
+                        "name": "Tea",
+                        "color": "brown"
+                    }
+                },
+                "Specialty": {
+                    "id": "~DOX",
+                    "type": "select",
+                    "select": {
+                        "id": "18e3b3e9-81dc-4dc3-9561-36d40a72a56e",
+                        "name": "no",
+                        "color": "blue"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Matcha",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Matcha",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Matcha-1b054aaf8f1b80cbbfd6c3c24c8ffd4a",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "1b054aaf-8f1b-8054-981e-f42edaa0eab0",
+            "created_time": "2025-03-08T03:39:00.000Z",
+            "last_edited_time": "2025-03-08T03:44:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "cover": null,
+            "icon": {
+                "type": "external",
+                "external": {
+                    "url": "https://www.notion.so/icons/garlic_gray.svg"
+                }
+            },
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a854aaf-8f1b-806d-bb92-f64eb6235f0d"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3AV~%3E",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Blueberries, sugar, lavender, thyme and vanilla",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Blueberries, sugar, lavender, thyme and vanilla",
+                            "href": null
+                        }
+                    ]
+                },
+                "SubType": {
+                    "id": "%3DNyK",
+                    "type": "select",
+                    "select": null
+                },
+                "InStock": {
+                    "id": "A%3Fkv",
+                    "type": "select",
+                    "select": {
+                        "id": "c43f1db3-5b9e-43e3-aab7-b99ca9b6bd46",
+                        "name": "yes",
+                        "color": "green"
+                    }
+                },
+                "Recipe": {
+                    "id": "I%5Elg",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Shots": {
+                    "id": "JRfw",
+                    "type": "select",
+                    "select": null
+                },
+                "Caffiene": {
+                    "id": "KTvj",
+                    "type": "select",
+                    "select": null
+                },
+                "Temp": {
+                    "id": "aU%5Dc",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "Effects": {
+                    "id": "h%5BSK",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "FlavorNotes": {
+                    "id": "jjjE",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Light, Floral, Sweet and Fruity",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Light, Floral, Sweet and Fruity",
+                            "href": null
+                        }
+                    ]
+                },
+                "Information": {
+                    "id": "k%40WW",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Category": {
+                    "id": "p%5C%7BT",
+                    "type": "select",
+                    "select": {
+                        "id": "b0d6bfaf-ad0b-494c-8951-397709917db5",
+                        "name": "Syrups",
+                        "color": "gray"
+                    }
+                },
+                "Specialty": {
+                    "id": "~DOX",
+                    "type": "select",
+                    "select": null
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Blueberry Lavender Oleo-Saccharum",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Blueberry Lavender Oleo-Saccharum",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Blueberry-Lavender-Oleo-Saccharum-1b054aaf8f1b8054981ef42edaa0eab0",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "1b054aaf-8f1b-801a-9967-c1335e8ce345",
+            "created_time": "2025-03-08T03:25:00.000Z",
+            "last_edited_time": "2025-03-09T01:01:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "cover": null,
+            "icon": {
+                "type": "external",
+                "external": {
+                    "url": "https://www.notion.so/icons/garlic_gray.svg"
+                }
+            },
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a854aaf-8f1b-806d-bb92-f64eb6235f0d"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3AV~%3E",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "SubType": {
+                    "id": "%3DNyK",
+                    "type": "select",
+                    "select": null
+                },
+                "InStock": {
+                    "id": "A%3Fkv",
+                    "type": "select",
+                    "select": null
+                },
+                "Recipe": {
+                    "id": "I%5Elg",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "{\n\"Ingredients\": [\n\"18g espresso\",\n\"36g water\"\n],\n\"Directions\": [\n\"Preheat basket\",\n\"Wipe basket clean\",\n\"Prepare and stamp puck\",\n\"Pull shot (looking for this to take 25-35 seconds\"\n]\n}",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "{\n\"Ingredients\": [\n\"18g espresso\",\n\"36g water\"\n],\n\"Directions\": [\n\"Preheat basket\",\n\"Wipe basket clean\",\n\"Prepare and stamp puck\",\n\"Pull shot (looking for this to take 25-35 seconds\"\n]\n}",
+                            "href": null
+                        }
+                    ]
+                },
+                "Shots": {
+                    "id": "JRfw",
+                    "type": "select",
+                    "select": null
+                },
+                "Caffiene": {
+                    "id": "KTvj",
+                    "type": "select",
+                    "select": null
+                },
+                "Temp": {
+                    "id": "aU%5Dc",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "Effects": {
+                    "id": "h%5BSK",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "FlavorNotes": {
+                    "id": "jjjE",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Information": {
+                    "id": "k%40WW",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "{\n\"Aroma\": \"The aroma of an espresso is the first thing you experience when you lift your cup. When you taste espresso, breathe in its aroma and have a think. Is it unusual? Does it have a particular flavour, or does it remind you of a certain food? This can inform how you interpret the rest of the espresso.\",\n\"Body\": \"The body is basically the density of coffee on your tongue, it can vary massively; it might be oily, creamy, juicy, or syrupy.\",\n\"Flavor\": \"An espresso’s flavour depends on a number of things, including the roast profile of the coffee and the origin of the beans.\",\n\"Origin\": \"invented in Italy, around 100 years ago, and is credited to a man by the name of Luigi Bezzera, from Milan\",\n\"Caffeine and Benefits\": [\"40–60 mg caffeine per shot\"]\n}",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "{\n\"Aroma\": \"The aroma of an espresso is the first thing you experience when you lift your cup. When you taste espresso, breathe in its aroma and have a think. Is it unusual? Does it have a particular flavour, or does it remind you of a certain food? This can inform how you interpret the rest of the espresso.\",\n\"Body\": \"The body is basically the density of coffee on your tongue, it can vary massively; it might be oily, creamy, juicy, or syrupy.\",\n\"Flavor\": \"An espresso’s flavour depends on a number of things, including the roast profile of the coffee and the origin of the beans.\",\n\"Origin\": \"invented in Italy, around 100 years ago, and is credited to a man by the name of Luigi Bezzera, from Milan\",\n\"Caffeine and Benefits\": [\"40–60 mg caffeine per shot\"]\n}",
+                            "href": null
+                        }
+                    ]
+                },
+                "Category": {
+                    "id": "p%5C%7BT",
+                    "type": "select",
+                    "select": {
+                        "id": "48210eeb-dc91-4d05-a607-094832a9d985",
+                        "name": "CoffeeBackground",
+                        "color": "blue"
+                    }
+                },
+                "Specialty": {
+                    "id": "~DOX",
+                    "type": "select",
+                    "select": null
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Espresso",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Espresso",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Espresso-1b054aaf8f1b801a9967c1335e8ce345",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "1b054aaf-8f1b-80be-9194-ec36121f51c1",
+            "created_time": "2025-03-08T03:06:00.000Z",
+            "last_edited_time": "2025-03-09T19:01:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "cover": null,
+            "icon": {
+                "type": "external",
+                "external": {
+                    "url": "https://www.notion.so/icons/garlic_gray.svg"
+                }
+            },
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a854aaf-8f1b-806d-bb92-f64eb6235f0d"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3AV~%3E",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "SubType": {
+                    "id": "%3DNyK",
+                    "type": "select",
+                    "select": null
+                },
+                "InStock": {
+                    "id": "A%3Fkv",
+                    "type": "select",
+                    "select": null
+                },
+                "Recipe": {
+                    "id": "I%5Elg",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "{\n\"hot\": {\n\"Ingredients\": [\"1 tsp tea\", \"8 oz water\"],\n\"Directions\": [\"Heat water to 170° F\", \"Steep for 1-3 minutes\"]\n},\n\"cold\": {\n\"Ingredients\": [\"2 tsp tea\", \"8 oz water\", \"ice\"],\n\"Directions\": [\"Heat water to 170° F\", \"Steep for 1-3 minutes\", \"Pour over ice\"]\n}\n}",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "{\n\"hot\": {\n\"Ingredients\": [\"1 tsp tea\", \"8 oz water\"],\n\"Directions\": [\"Heat water to 170° F\", \"Steep for 1-3 minutes\"]\n},\n\"cold\": {\n\"Ingredients\": [\"2 tsp tea\", \"8 oz water\", \"ice\"],\n\"Directions\": [\"Heat water to 170° F\", \"Steep for 1-3 minutes\", \"Pour over ice\"]\n}\n}",
+                            "href": null
+                        }
+                    ]
+                },
+                "Shots": {
+                    "id": "JRfw",
+                    "type": "select",
+                    "select": null
+                },
+                "Caffiene": {
+                    "id": "KTvj",
+                    "type": "select",
+                    "select": null
+                },
+                "Temp": {
+                    "id": "aU%5Dc",
+                    "type": "multi_select",
+                    "multi_select": [
+                        {
+                            "id": "91527866-145d-49b7-beea-139d9d7f7306",
+                            "name": "hot",
+                            "color": "gray"
+                        },
+                        {
+                            "id": "bdef5a5d-faaa-4041-b20a-b93189dda123",
+                            "name": "cold",
+                            "color": "yellow"
+                        }
+                    ]
+                },
+                "Effects": {
+                    "id": "h%5BSK",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "FlavorNotes": {
+                    "id": "jjjE",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Information": {
+                    "id": "k%40WW",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "{\n\"Flavor\": \"Though they vary in taste, green teas tend to have a mellow flavor.\",\n\"Origin\": \"Originating from 2737 BC, China and 8th century Japan\",\n\"Caffeine and Benefits\": [\"12–75 mg caffeine per cup\", \"High in antioxidants\"]\n}",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "{\n\"Flavor\": \"Though they vary in taste, green teas tend to have a mellow flavor.\",\n\"Origin\": \"Originating from 2737 BC, China and 8th century Japan\",\n\"Caffeine and Benefits\": [\"12–75 mg caffeine per cup\", \"High in antioxidants\"]\n}",
+                            "href": null
+                        }
+                    ]
+                },
+                "Category": {
+                    "id": "p%5C%7BT",
+                    "type": "select",
+                    "select": {
+                        "id": "6dda51ec-827d-41e5-9e27-199c7d616a6f",
+                        "name": "TeaBackground",
+                        "color": "pink"
+                    }
+                },
+                "Specialty": {
+                    "id": "~DOX",
+                    "type": "select",
+                    "select": null
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Green Tea",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Green Tea",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Green-Tea-1b054aaf8f1b80be9194ec36121f51c1",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "1ad54aaf-8f1b-800d-a436-f6c3a31c06e0",
+            "created_time": "2025-03-05T16:11:00.000Z",
+            "last_edited_time": "2025-03-09T18:08:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "cover": null,
+            "icon": {
+                "type": "external",
+                "external": {
+                    "url": "https://www.notion.so/icons/garlic_gray.svg"
+                }
+            },
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a854aaf-8f1b-806d-bb92-f64eb6235f0d"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3AV~%3E",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "One Line Coffee brand, roasted in Ohio, fair trade and sold directly from the farmers. Blend of guatemala todos santos, uganda ezana and ethiopia bekele belaychow",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "One Line Coffee brand, roasted in Ohio, fair trade and sold directly from the farmers. Blend of guatemala todos santos, uganda ezana and ethiopia bekele belaychow",
+                            "href": null
+                        }
+                    ]
+                },
+                "SubType": {
+                    "id": "%3DNyK",
+                    "type": "select",
+                    "select": {
+                        "id": "3cd66fd0-9eaf-479d-8dd1-5b1ba9bec586",
+                        "name": "Espresso",
+                        "color": "purple"
+                    }
+                },
+                "InStock": {
+                    "id": "A%3Fkv",
+                    "type": "select",
+                    "select": {
+                        "id": "c43f1db3-5b9e-43e3-aab7-b99ca9b6bd46",
+                        "name": "yes",
+                        "color": "green"
+                    }
+                },
+                "Recipe": {
+                    "id": "I%5Elg",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Shots": {
+                    "id": "JRfw",
+                    "type": "select",
+                    "select": {
+                        "id": "4bb14625-2ad3-4d14-a732-a0d8c0ad6c3d",
+                        "name": "yes",
+                        "color": "gray"
+                    }
+                },
+                "Caffiene": {
+                    "id": "KTvj",
+                    "type": "select",
+                    "select": {
+                        "id": "bf3b0fdc-31a6-4152-99bd-310533f5326b",
+                        "name": "high",
+                        "color": "pink"
+                    }
+                },
+                "Temp": {
+                    "id": "aU%5Dc",
+                    "type": "multi_select",
+                    "multi_select": [
+                        {
+                            "id": "91527866-145d-49b7-beea-139d9d7f7306",
+                            "name": "hot",
+                            "color": "gray"
+                        }
+                    ]
+                },
+                "Effects": {
+                    "id": "h%5BSK",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Invigorating",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Invigorating",
+                            "href": null
+                        }
+                    ]
+                },
+                "FlavorNotes": {
+                    "id": "jjjE",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Orange Blossom, Peach, Molasses, Ganache",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Orange Blossom, Peach, Molasses, Ganache",
+                            "href": null
+                        }
+                    ]
+                },
+                "Information": {
+                    "id": "k%40WW",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Category": {
+                    "id": "p%5C%7BT",
+                    "type": "select",
+                    "select": {
+                        "id": "53d71648-885d-4204-a24a-9d3d1c9f5ee8",
+                        "name": "Coffee",
+                        "color": "orange"
+                    }
+                },
+                "Specialty": {
+                    "id": "~DOX",
+                    "type": "select",
+                    "select": {
+                        "id": "18e3b3e9-81dc-4dc3-9561-36d40a72a56e",
+                        "name": "no",
+                        "color": "blue"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Method Espresso",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Method Espresso",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Method-Espresso-1ad54aaf8f1b800da436f6c3a31c06e0",
+            "public_url": null
+        },
+        {
+            "object": "page",
             "id": "1ab54aaf-8f1b-80a9-9d8a-ca38b83da0a1",
             "created_time": "2025-03-03T03:52:00.000Z",
-            "last_edited_time": "2025-03-03T03:53:00.000Z",
+            "last_edited_time": "2025-03-08T22:08:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
@@ -53,9 +3542,9 @@
                     "id": "%3DNyK",
                     "type": "select",
                     "select": {
-                        "id": "91a2c931-76ae-42b7-9971-86655a39ddd7",
-                        "name": "Green",
-                        "color": "default"
+                        "id": "b573e58f-08f3-4be1-a39f-a91b2851f73f",
+                        "name": "Green Tea",
+                        "color": "red"
                     }
                 },
                 "InStock": {
@@ -67,11 +3556,15 @@
                         "color": "green"
                     }
                 },
-                "🥐 Recipe book": {
-                    "id": "FfCl",
-                    "type": "relation",
-                    "relation": [],
-                    "has_more": false
+                "Recipe": {
+                    "id": "I%5Elg",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Shots": {
+                    "id": "JRfw",
+                    "type": "select",
+                    "select": null
                 },
                 "Caffiene": {
                     "id": "KTvj",
@@ -81,6 +3574,11 @@
                         "name": "low",
                         "color": "blue"
                     }
+                },
+                "Temp": {
+                    "id": "aU%5Dc",
+                    "type": "multi_select",
+                    "multi_select": []
                 },
                 "Effects": {
                     "id": "h%5BSK",
@@ -127,6 +3625,11 @@
                             "href": null
                         }
                     ]
+                },
+                "Information": {
+                    "id": "k%40WW",
+                    "type": "rich_text",
+                    "rich_text": []
                 },
                 "Category": {
                     "id": "p%5C%7BT",
@@ -177,7 +3680,7 @@
             "object": "page",
             "id": "1a854aaf-8f1b-807f-9f1f-eb9ed55b30ca",
             "created_time": "2025-02-28T03:29:00.000Z",
-            "last_edited_time": "2025-03-01T03:08:00.000Z",
+            "last_edited_time": "2025-03-10T01:31:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
@@ -228,7 +3731,7 @@
                     "type": "select",
                     "select": {
                         "id": "571a7dfa-f546-428b-96d4-d4236d3c8741",
-                        "name": "misc",
+                        "name": "Misc",
                         "color": "yellow"
                     }
                 },
@@ -241,15 +3744,15 @@
                         "color": "green"
                     }
                 },
-                "🥐 Recipe book": {
-                    "id": "FfCl",
-                    "type": "relation",
-                    "relation": [
-                        {
-                            "id": "17b54aaf-8f1b-8068-99df-f16412298bd4"
-                        }
-                    ],
-                    "has_more": false
+                "Recipe": {
+                    "id": "I%5Elg",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Shots": {
+                    "id": "JRfw",
+                    "type": "select",
+                    "select": null
                 },
                 "Caffiene": {
                     "id": "KTvj",
@@ -259,6 +3762,17 @@
                         "name": "medium",
                         "color": "gray"
                     }
+                },
+                "Temp": {
+                    "id": "aU%5Dc",
+                    "type": "multi_select",
+                    "multi_select": [
+                        {
+                            "id": "91527866-145d-49b7-beea-139d9d7f7306",
+                            "name": "hot",
+                            "color": "gray"
+                        }
+                    ]
                 },
                 "Effects": {
                     "id": "h%5BSK",
@@ -306,12 +3820,17 @@
                         }
                     ]
                 },
+                "Information": {
+                    "id": "k%40WW",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
                 "Category": {
                     "id": "p%5C%7BT",
                     "type": "select",
                     "select": {
                         "id": "079f8747-6014-4409-8543-8af514a614e6",
-                        "name": "drink",
+                        "name": "Misc",
                         "color": "default"
                     }
                 },
@@ -355,7 +3874,7 @@
             "object": "page",
             "id": "1a854aaf-8f1b-8004-8561-cb3b912f1acd",
             "created_time": "2025-02-28T03:26:00.000Z",
-            "last_edited_time": "2025-03-01T03:07:00.000Z",
+            "last_edited_time": "2025-03-10T01:31:00.000Z",
             "created_by": {
                 "object": "user",
                 "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
@@ -406,7 +3925,7 @@
                     "type": "select",
                     "select": {
                         "id": "571a7dfa-f546-428b-96d4-d4236d3c8741",
-                        "name": "misc",
+                        "name": "Misc",
                         "color": "yellow"
                     }
                 },
@@ -419,15 +3938,33 @@
                         "color": "green"
                     }
                 },
-                "🥐 Recipe book": {
-                    "id": "FfCl",
-                    "type": "relation",
-                    "relation": [
+                "Recipe": {
+                    "id": "I%5Elg",
+                    "type": "rich_text",
+                    "rich_text": [
                         {
-                            "id": "5c948622-1a8b-4863-8900-0e3a7589d8ba"
+                            "type": "text",
+                            "text": {
+                                "content": "{\n\"Ingredients\": [\n\"3-4 oz chocolate\",\n\"6 oz milk\",\n\"Cocoa powder (optional)\",\n\"Cinnamon (optional)\"\n],\n\"Directions\": [\n\"Heat mug with hot water\",\n\"Put chocolate in bottom of mug\",\n\"Froth milk\",\n\"Pour over chocolate and let sit for 15 seconds\",\n\"Add cinnamon\",\n\"Mix until combined\"\n]\n}",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "{\n\"Ingredients\": [\n\"3-4 oz chocolate\",\n\"6 oz milk\",\n\"Cocoa powder (optional)\",\n\"Cinnamon (optional)\"\n],\n\"Directions\": [\n\"Heat mug with hot water\",\n\"Put chocolate in bottom of mug\",\n\"Froth milk\",\n\"Pour over chocolate and let sit for 15 seconds\",\n\"Add cinnamon\",\n\"Mix until combined\"\n]\n}",
+                            "href": null
                         }
-                    ],
-                    "has_more": false
+                    ]
+                },
+                "Shots": {
+                    "id": "JRfw",
+                    "type": "select",
+                    "select": null
                 },
                 "Caffiene": {
                     "id": "KTvj",
@@ -437,6 +3974,17 @@
                         "name": "none",
                         "color": "purple"
                     }
+                },
+                "Temp": {
+                    "id": "aU%5Dc",
+                    "type": "multi_select",
+                    "multi_select": [
+                        {
+                            "id": "91527866-145d-49b7-beea-139d9d7f7306",
+                            "name": "hot",
+                            "color": "gray"
+                        }
+                    ]
                 },
                 "Effects": {
                     "id": "h%5BSK",
@@ -466,12 +4014,17 @@
                         }
                     ]
                 },
+                "Information": {
+                    "id": "k%40WW",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
                 "Category": {
                     "id": "p%5C%7BT",
                     "type": "select",
                     "select": {
                         "id": "079f8747-6014-4409-8543-8af514a614e6",
-                        "name": "drink",
+                        "name": "Misc",
                         "color": "default"
                     }
                 },

@@ -5,7 +5,7 @@ import { Button } from "../../lowLevelComponents/Button";
 import { RootStoreContext } from "../../providers/RootStoreContext";
 import yarn from '../../images/yarn-ball.png'
 import pawPrint from '../../images/footprint.png'
-import { DashCircle } from "react-bootstrap-icons";
+import { DashCircle, ChevronRight, PlusCircle } from "react-bootstrap-icons";
 
 const Receipt = observer(() => {
   // stores
@@ -32,15 +32,24 @@ const Receipt = observer(() => {
             <div className="w-full">Name</div>
             <div className="w-full text-end">Price</div>
           </div>
-          {receiptStore.items.map((item, key) => (
-            <div className="flex w-full pr-4">
-              <div className="flex w-full items-center gap-2"><DashCircle onClick={() => receiptStore.removeItem(key)}/>{item["name"]}</div>
-              <div className="text-end">{item["price"]}</div>
-            </div>
-          ))}
+          <div className="flex flex-col gap-4">
+            {receiptStore.items.map((drink, i) => (
+              <div className="flex flex-col w-full pr-4 gap-1">
+                <div className="flex w-full items-center gap-2">{i == receiptStore.selectedDrink ? <ChevronRight className="h-4 w-auto"/> : <div className="pl-4"></div>}<div onClick={() => receiptStore.selectDrink(i)} className="w-full">Drink #{i + 1}</div>{receiptStore.items.length > 1 && <DashCircle className="items-end" onClick={() => receiptStore.removeDrink(i)}/>}</div>
+                {receiptStore.items[i].map((item, key) => (
+                  <div className="flex w-full pl-8">
+                    <div className="flex w-full items-center gap-2">{i == receiptStore.selectedDrink ? <DashCircle className="h-4 w-auto" onClick={() => receiptStore.removeItem(i, key)}/> : <></>}{item["name"]}</div>
+                    <div className="text-end">{item["price"]}</div>
+                  </div>
+                ))}
+              </div>
+            ))
+            }
+          </div>
         </div>
       </div>
       <div className="flex flex-col px-4 w-full ">
+        <div className="flex w-full items-center justify-center gap-2 text-center mb-3" onClick={() => receiptStore.addDrink()}><PlusCircle/>Add Drink</div>
         <div className="w-full py-2 bg-paw-print bg-contain bg-repeat-x h-2 my-2 "/>
         <div className="flex font-bold">
           <div className="w-full">Total</div>
