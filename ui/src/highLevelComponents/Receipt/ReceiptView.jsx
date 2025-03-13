@@ -6,6 +6,7 @@ import { RootStoreContext } from "../../providers/RootStoreContext";
 import yarn from '../../images/yarn-ball.png'
 import pawPrint from '../../images/footprint.png'
 import { DashCircle, ChevronRight, PlusCircle } from "react-bootstrap-icons";
+import Temp from "../TempDisplay/Caffiene";
 
 const Receipt = observer(() => {
   // stores
@@ -38,7 +39,17 @@ const Receipt = observer(() => {
                 <div className="flex w-full items-center gap-2">{i == receiptStore.selectedDrink ? <ChevronRight className="h-4 w-auto"/> : <div className="pl-4"></div>}<div onClick={() => receiptStore.selectDrink(i)} className="w-full">Drink #{i + 1}</div>{receiptStore.items.length > 1 && <DashCircle className="items-end" onClick={() => receiptStore.removeDrink(i)}/>}</div>
                 {receiptStore.items[i].map((item, key) => (
                   <div className="flex w-full pl-8">
-                    <div className="flex w-full items-center gap-2">{i == receiptStore.selectedDrink ? <DashCircle className="h-4 w-auto" onClick={() => receiptStore.removeItem(i, key)}/> : <></>}{item["name"]}</div>
+                    <div className="flex flex-col w-full">
+                      <div className="flex w-full items-center gap-2">
+                        {i == receiptStore.selectedDrink 
+                          ? <DashCircle className="h-4 w-auto" onClick={() => receiptStore.removeItem(i, key)}/> 
+                          : <></>
+                        }
+                        <>{item["name"]}</>
+                        <>{item["temp"] && <Temp temperature={item["temp"]} color="black"/>}</>
+                      </div>
+                      {item["numShots"] && <div className="pl-6 text-sm">x {item["numShots"]} shot</div>}
+                    </div>
                     <div className="text-end">{item["price"]}</div>
                   </div>
                 ))}

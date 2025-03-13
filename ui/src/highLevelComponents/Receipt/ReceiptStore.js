@@ -17,8 +17,10 @@ export default class ReceiptStore {
         makeAutoObservable(this);
     }
 
-    addItem(item) {
-        this.items[this.selectedDrink].push({"name": item["properties"]["Name"]["title"][0]["plain_text"], "price": item["price"], "info": item})
+    addItem(item, temp, numShots) {
+        if (item["properties"]["Temp"]["multi_select"].length == 1) {temp = item["properties"]["Temp"]["multi_select"][0]["name"]}
+        this.items[this.selectedDrink].push({"name": item["properties"]["Name"]["title"][0]["plain_text"], "price": item["price"], "info": item, "temp": temp || null, "numShots": numShots || null})
+        console.log(this.items)
     }
 
     removeDrink(drinkNum) {

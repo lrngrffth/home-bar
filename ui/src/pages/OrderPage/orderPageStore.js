@@ -17,6 +17,10 @@ export default class OrderPageStore {
         }
         this.subType = {"Bases": "Specialties", "Add Ons": "Syrups", "Booze": "Liquor", "Toppings": "Whipped Topping"};
         this.infoModalOpen = "";
+        this.orderModalOpen = false;
+        this.orderItemSelection = {};
+        this.selectedTemp = "";
+        this.selectedNumShots = "";
     }
 
     constructor(rootStore) {
@@ -35,14 +39,16 @@ export default class OrderPageStore {
 
     async getSpecialtyDrinks() {
         this.loading = true;
-        // this.options = items;
         this.options = items.map(option => ({
             ...option, 
             price: ((Math.random() * 4) + 3).toFixed(2),
             recipe: JSON.parse(option["properties"]["Recipe"]["rich_text"][0] ? option["properties"]["Recipe"]["rich_text"][0]["text"]["content"] : null)
         }));
-        console.log(this.options)
-        // this.options = (await getItemsFromDatabase({})).map(option => ({...option, ["price"]: ((Math.random() * 4) + 3).toFixed(2)}))
+        // this.options = (await getItemsFromDatabase({})).map(option => ({
+        //     ...option, 
+        //     price: ((Math.random() * 4) + 3).toFixed(2),
+        //     recipe: JSON.parse(option["properties"]["Recipe"]["rich_text"][0] ? option["properties"]["Recipe"]["rich_text"][0]["text"]["content"] : null)
+        // }));
         Object.keys(this.subTypes).map((page, i) => {
             Object.keys(this.subTypes[page]).map((type, j) => {
                 if (this.subTypes[page][type]["subTypes"] == true) {
@@ -77,7 +83,6 @@ export default class OrderPageStore {
                 }
             });
         });
-        console.log(this.subTypes)
         this.subTypes["Bases"]["Specialties"]["items"] = this.options.filter((option) => option["properties"]["Specialty"]["select"] && option["properties"]["Specialty"]["select"]["name"] == "yes")
         this.loading = false;
     }
@@ -88,5 +93,37 @@ export default class OrderPageStore {
 
     closeInfoModal() {
         this.infoModalOpen = "";
+    }
+
+    openOrderModal(item) {
+        this.orderItemSelection = item;
+        if (item["properties"]["Temp"]["multi_select"].length > 1) {this.selectedTemp = "hot"};
+        if (item["properties"]["Shots"]["select"]) {this.selectedNumShots = "single"}
+        this.orderModalOpen = true;
+    }
+
+    closeOrderModal() {
+        this.orderItemSelection = {};
+        this.selectedTemp = "";
+        this.selectedNumShots = "";
+        this.orderModalOpen = false;
+    }
+
+    submitOrderFromModal() {
+        console.log(this.selectedTemp)
+        this.rootStore.receiptStore.addItem(this.orderItemSelection, this.selectedTemp, this.selectedNumShots);
+        this.closeOrderModal();
+    }
+
+    needsSecondStep(item) {
+        return item["properties"]["Temp"]["multi_select"].length > 1 || item["properties"]["Shots"]["select"];
+    }
+
+    selectTemp(e) {
+        this.selectedTemp = e.target.value
+    }
+
+    selectNumShots(e) {
+        this.selectedNumShots = e.target.value
     }
 }
