@@ -47,7 +47,7 @@ const Receipt = observer(() => {
                           ? <DashCircle className="w-4 mt-1" onClick={() => receiptStore.removeItem(i, key)}/> 
                           : <></>
                         }
-                        <div className="max-w-40">{item["name"]}</div>
+                        <div className="max-w-32">{item["name"]}</div>
                         <>{item["temp"] && <Temp temperature={item["temp"]} color="black"/>}</>
                       </div>
                       {item["numShots"] && <div className="pl-6 text-sm">x {item["numShots"]} shot</div>}

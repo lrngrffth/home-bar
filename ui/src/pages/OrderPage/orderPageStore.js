@@ -10,7 +10,7 @@ export default class OrderPageStore {
         this.options = [];
         this.loading = false;
         this.subTypes = {
-            "Bases": {"Specialties": {"items": []}, "Tea": {"items": [], "subTypes": true }, "Coffee": {"items": [], "subTypes": true}, "Misc": {"items": []}},
+            "Bases": {"Specialties": {"items": []}, "Tea": {"items": [], "subTypes": true }, "Coffee": {"items": [], "subTypes": true}, "Misc & Mocktails": {"items": []}},
             "Add Ons": {"Syrups": {"items": []}, "Spices": {"items": []}, "Milk and Sugar": {"items": [], "subTypes": true}},
             "Booze": {"Liquor": {"items": [], "subTypes": true}, "Beer and Wine": {"items": [], "subTypes": true}, "Mixed Drinks": {"items": [], "subTypes": true}},
             "Toppings": {"Whipped Topping": {"items": []}, "Garnish": {"items": []}}
@@ -85,6 +85,7 @@ export default class OrderPageStore {
         });
         this.subTypes["Bases"]["Specialties"]["items"] = this.options.filter((option) => option["properties"]["Specialty"]["select"] && option["properties"]["Specialty"]["select"]["name"] == "yes")
         this.loading = false;
+        console.log(this.subTypes["Bases"]["Misc"])
     }
 
     openInfoModal(type) {

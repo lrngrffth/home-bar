@@ -16,17 +16,17 @@ const RecipePage = observer(() => {
   const navigate = useNavigate();
 
   return (
-    <div className="flex flex-col items-center justify-center gap-6 w-full h-screen bg-cotton-candy font-abhaya text-5xl text-deep-marroon">
-      <div className="flex flex-col w-full h-screen overflow-scroll pb-8">
+    <div className="flex flex-col items-center justify-center gap-6 w-full h-screen bg-cotton-candy font-abhaya text-5xl text-deep-marroon max-h-screen overflow-hidden">
+      <div className="flex flex-col w-full h-screen pb-8">
         <div className="text-dusk-rose font-semibold font-abhaya text-6xl mx-6 mt-4">
           <div>
             Order Up
           </div>
           <hr className="border-deep-marroon"/>
         </div>
-        <div className="flex h-full pt-12 w-full mx-12 gap-3">
+        <div className="flex h-full pt-12 w-full px-12 gap-3">
           <div className="flex flex-col gap-3">
-            <div className="flex flex-col h-full bg-dusk-rose w-52 rounded-3xl text-xl py-3 px-3 gap-1">
+            <div className="flex flex-col h-5/6 bg-dusk-rose w-52 rounded-3xl text-xl py-3 px-3 gap-1 overflow-scroll">
               <div className="font-bold px-3">Ticket</div>
               <div className="h-full px-3">
                 {recipePageStore.drinks.map((drink, key) => (
@@ -42,8 +42,8 @@ const RecipePage = observer(() => {
             </div>
             <Button onClick={() =>navigate("/order")}>Back</Button>
           </div>
-          <div className="flex flex-col w-full pl-8 font-inter font-light text-5xl pr-48">
-            <div>Ingredients</div>
+          <div className="flex flex-col w-full pl-8 font-inter font-light text-5xl pr-48 overflow-scroll mb-24">
+            <div className="sticky top-0 bg-cotton-candy underline p-1">Ingredients</div>
             <ul className="list-disc text-4xl ml-6 pl-6 pt-6 pb-4">
               {Object.keys(recipePageStore.recipes[recipePageStore.currentDrink]["Ingredients"]).map((item, key) => (
                 <>
@@ -66,7 +66,7 @@ const RecipePage = observer(() => {
                 </>
               }
             </ul>
-            <div>Directions</div>
+            <div className="sticky top-0 bg-cotton-candy underline p-1">Directions</div>
             <ul className="list-disc text-4xl ml-6 pl-6 pt-6 pb-4">
               {Object.keys(recipePageStore.recipes[recipePageStore.currentDrink]["Directions"]).map((item, key) => (
                 <>
