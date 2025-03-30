@@ -17,9 +17,10 @@ export default class ReceiptStore {
         makeAutoObservable(this);
     }
 
-    addItem(item, temp, numShots) {
+    addItem(item, temp, numShots, type) {
+        console.log(type)
         if (item["properties"]["Temp"]["multi_select"].length == 1) {temp = item["properties"]["Temp"]["multi_select"][0]["name"]}
-        this.items[this.selectedDrink].push({"name": item["properties"]["Name"]["title"][0]["plain_text"], "price": item["price"], "info": item, "temp": temp || null, "numShots": numShots || null})
+        this.items[this.selectedDrink].push({"name": item["properties"]["Name"]["title"][0]["plain_text"], "price": item["price"], "info": item, "temp": temp || null, "numShots": numShots || null, "type": type || null})
         console.log(this.items)
     }
 
@@ -44,5 +45,16 @@ export default class ReceiptStore {
     
     selectDrink(drinkNum) {
         this.selectedDrink = drinkNum;
+    }
+
+    makeOrder() {
+        this.rootStore.recipeStore.createRecipes(this.items);
+    }
+
+    cancelOrder() {
+        this.manager = managers[Math.floor(Math.random() * managers.length)];
+        this.cashier = Math.floor(Math.random() * 20);
+        this.items = [[]];
+        this.selectedDrink = 0;
     }
 }

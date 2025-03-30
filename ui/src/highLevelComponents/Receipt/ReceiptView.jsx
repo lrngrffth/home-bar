@@ -7,11 +7,13 @@ import yarn from '../../images/yarn-ball.png'
 import pawPrint from '../../images/footprint.png'
 import { DashCircle, ChevronRight, PlusCircle } from "react-bootstrap-icons";
 import Temp from "../TempDisplay/Caffiene";
+import { useNavigate } from "react-router-dom";
 
 const Receipt = observer(() => {
   // stores
   let rootStore = useContext(RootStoreContext);
   let receiptStore = rootStore.receiptStore;
+  const navigate = useNavigate();
   return (
     <div className="flex flex-col text-lg items-center w-96 h-screen font-abhaya justify-between py-6 overflow-scroll">
       <div className="w-full flex flex-col items-center px-4">
@@ -36,16 +38,16 @@ const Receipt = observer(() => {
           <div className="flex flex-col gap-4">
             {receiptStore.items.map((drink, i) => (
               <div className="flex flex-col w-full pr-4 gap-1">
-                <div className="flex w-full items-center gap-2">{i == receiptStore.selectedDrink ? <ChevronRight className="h-4 w-auto"/> : <div className="pl-4"></div>}<div onClick={() => receiptStore.selectDrink(i)} className="w-full">Drink #{i + 1}</div>{receiptStore.items.length > 1 && <DashCircle className="items-end" onClick={() => receiptStore.removeDrink(i)}/>}</div>
+                <div className="flex w-full items-center gap-2">{i == receiptStore.selectedDrink ? <ChevronRight className="h-4 w-auto"/> : <div className="pl-4"></div>}<div onClick={() => receiptStore.selectDrink(i)} className="w-full">Drink #{i + 1}</div>{receiptStore.items.length > 1 && <DashCircle className="items-end h-4 w-auto" onClick={() => receiptStore.removeDrink(i)}/>}</div>
                 {receiptStore.items[i].map((item, key) => (
                   <div className="flex w-full pl-8">
                     <div className="flex flex-col w-full">
-                      <div className="flex w-full items-center gap-2">
+                      <div className="flex w-full items-start justify-start gap-2">
                         {i == receiptStore.selectedDrink 
-                          ? <DashCircle className="h-4 w-auto" onClick={() => receiptStore.removeItem(i, key)}/> 
+                          ? <DashCircle className="w-4 mt-1" onClick={() => receiptStore.removeItem(i, key)}/> 
                           : <></>
                         }
-                        <>{item["name"]}</>
+                        <div className="max-w-40">{item["name"]}</div>
                         <>{item["temp"] && <Temp temperature={item["temp"]} color="black"/>}</>
                       </div>
                       {item["numShots"] && <div className="pl-6 text-sm">x {item["numShots"]} shot</div>}
@@ -67,7 +69,7 @@ const Receipt = observer(() => {
           <div className="flex w-full justify-end text-end"><img src={yarn} alt="yarn ball" className="h-5 w-auto pr-1"/>{receiptStore.total}</div>
         </div>
         <div className="text-sm flex w-full items-center justify-center mb-3">Thanks for stopping by!</div>
-        <div className="flex w-full mx-auto justify-center"><Button >Order Up!</Button></div>
+        <div className="flex w-full mx-auto justify-center"><Button onClick={() => {receiptStore.makeOrder(); navigate('/recipe');}}>Order Up!</Button></div>
       </div>
     </div>
   );

@@ -39,16 +39,16 @@ export default class OrderPageStore {
 
     async getSpecialtyDrinks() {
         this.loading = true;
-        this.options = items.map(option => ({
-            ...option, 
-            price: ((Math.random() * 4) + 3).toFixed(2),
-            recipe: JSON.parse(option["properties"]["Recipe"]["rich_text"][0] ? option["properties"]["Recipe"]["rich_text"][0]["text"]["content"] : null)
-        }));
-        // this.options = (await getItemsFromDatabase({})).map(option => ({
+        // this.options = items.map(option => ({
         //     ...option, 
         //     price: ((Math.random() * 4) + 3).toFixed(2),
         //     recipe: JSON.parse(option["properties"]["Recipe"]["rich_text"][0] ? option["properties"]["Recipe"]["rich_text"][0]["text"]["content"] : null)
         // }));
+        this.options = (await getItemsFromDatabase({})).map(option => ({
+            ...option, 
+            price: ((Math.random() * 4) + 3).toFixed(2),
+            recipe: JSON.parse(option["properties"]["Recipe"]["rich_text"][0] ? option["properties"]["Recipe"]["rich_text"][0]["text"]["content"] : null)
+        }));
         Object.keys(this.subTypes).map((page, i) => {
             Object.keys(this.subTypes[page]).map((type, j) => {
                 if (this.subTypes[page][type]["subTypes"] == true) {
@@ -125,5 +125,9 @@ export default class OrderPageStore {
 
     selectNumShots(e) {
         this.selectedNumShots = e.target.value
+    }
+
+    clearOrder() {
+        this.itemType = "Bases";
     }
 }

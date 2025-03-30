@@ -20,8 +20,6 @@ const MainPage = observer(() => {
   let receiptStore = rootStore.receiptStore;
   const navigate = useNavigate();
 
-  useEffect(() => {orderPageStore.getSpecialtyDrinks()}, []);
-
   return (
     <div className="flex items-center justify-center w-full h-screen max-h-screen overflow-hidden">
       {orderPageStore.loading ? <div>loading</div> :
@@ -88,7 +86,7 @@ const MainPage = observer(() => {
                       </div>
                     </Modal>
                     {orderPageStore.subTypes[orderPageStore.itemType][orderPageStore.subType[orderPageStore.itemType]]["items"][type].map((item, key) => (
-                      <div className={clsx("flex flex-col w-full gap-1 py-3 relative active:bg-cotton-candy active:opacity-60", {"text-dusk-rose": item["properties"]["InStock"]["select"] ? item["properties"]["InStock"]["select"]["name"] != "no" : true})} onClick={() => {orderPageStore.needsSecondStep(item) ? orderPageStore.openOrderModal(item) : receiptStore.addItem(item)}}>
+                      <div className={clsx("flex flex-col w-full gap-1 py-3 relative active:bg-cotton-candy active:opacity-60", {"text-dusk-rose": item["properties"]["InStock"]["select"] ? item["properties"]["InStock"]["select"]["name"] != "no" : true})} onClick={() => {orderPageStore.needsSecondStep(item) ? orderPageStore.openOrderModal(item) : receiptStore.addItem(item, null, null, orderPageStore.itemType)}}>
                         <div className="absolute right-4">{item["price"]}</div>
                         <div className="flex gap-2 items-center text-2xl pl-4">{item["properties"]["Name"]["title"] ? item["properties"]["Name"]["title"][0]["plain_text"] : ""}<Caffiene caffieneLevel={item["properties"]["Caffiene"]["select"] ? item["properties"]["Caffiene"]["select"]["name"] : null}/></div>
                         <div className="pl-8">{item["properties"]["Description"]["rich_text"].length > 0 ? item["properties"]["Description"]["rich_text"][0]["plain_text"] : ""}</div>
@@ -101,7 +99,7 @@ const MainPage = observer(() => {
                 ))
               : 
               (orderPageStore.subTypes[orderPageStore.itemType][orderPageStore.subType[orderPageStore.itemType]]["items"]).map((item, key) => (
-                  <div className={clsx("flex flex-col w-full gap-1 py-3 relative active:bg-cotton-candy active:opacity-60", {"text-dusk-rose": item["properties"]["InStock"]["select"]["name"] != "no"})} onClick={() => {orderPageStore.needsSecondStep(item) ? orderPageStore.openOrderModal(item) : receiptStore.addItem(item)}}>
+                  <div className={clsx("flex flex-col w-full gap-1 py-3 relative active:bg-cotton-candy active:opacity-60", {"text-dusk-rose": item["properties"]["InStock"]["select"]["name"] != "no"})} onClick={() => {orderPageStore.needsSecondStep(item) ? orderPageStore.openOrderModal(item) : receiptStore.addItem(item, null, null, orderPageStore.itemType)}}>
                     <div className="absolute right-4">{item["price"]}</div>
                     <div className="flex gap-2 items-center text-2xl pl-4">{item["properties"]["Name"]["title"][0]["plain_text"]}<Caffiene caffieneLevel={item["properties"]["Caffiene"]["select"] ? item["properties"]["Caffiene"]["select"]["name"] : null}/></div>
                     <div className="pl-8">{item["properties"]["Description"]["rich_text"].length > 0 ? item["properties"]["Description"]["rich_text"][0]["plain_text"] : ""}</div>

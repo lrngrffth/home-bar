@@ -10,4 +10,10 @@ export default class MainPageStore {
         this.rootStore = rootStore;
         makeAutoObservable(this);
     }
+
+    clearData() {
+        this.rootStore.orderPageStore.clearOrder();
+        this.rootStore.recipeStore.clearRecipe();
+        this.rootStore.receiptStore.cancelOrder();
+    }
 }

@@ -7,6 +7,7 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from '@mui/material';
 import { Theme } from './lowLevelComponents/Theme'
 import { RootStoreProvider } from './providers/RootStoreContext';
+import RecipePage from './pages/RecipePage/RecipeView';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,7 @@ root.render(
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/order" element={<OrderPage/>} />
+          <Route path="/recipe" element={<RecipePage/>} />
         </Routes>
       </HashRouter>
     </ThemeProvider>

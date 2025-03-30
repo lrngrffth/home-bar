@@ -3,8 +3,8 @@ import MuiButton from "@mui/material/Button";
 
 
 export const Button = styled(MuiButton) ((props) => ({
-    color: '#564146',
-    backgroundColor: '#C68F9D',
+    color:  props["dark"] ? '#C68F9D' : '#564146',
+    backgroundColor: props["dark"] ? '#564146': '#C68F9D',
     fontSize: props["newStyle"] == 'large' ? '30px': '12px',
     textTransform: 'none',
     borderRadius: 20,

@@ -1,6 +1,305 @@
 [
         {
             "object": "page",
+            "id": "1c654aaf-8f1b-8061-8c2f-ff62b6a0872e",
+            "created_time": "2025-03-30T03:27:00.000Z",
+            "last_edited_time": "2025-03-30T03:32:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "cover": null,
+            "icon": {
+                "type": "external",
+                "external": {
+                    "url": "https://www.notion.so/icons/garlic_gray.svg"
+                }
+            },
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a854aaf-8f1b-806d-bb92-f64eb6235f0d"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3AV~%3E",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "SubType": {
+                    "id": "%3DNyK",
+                    "type": "select",
+                    "select": {
+                        "id": "36acdf59-cb38-4360-8dc2-e54eb8cbe9c4",
+                        "name": "Whipped Topping",
+                        "color": "orange"
+                    }
+                },
+                "Espresso": {
+                    "id": "%3FKMB",
+                    "type": "select",
+                    "select": null
+                },
+                "InStock": {
+                    "id": "A%3Fkv",
+                    "type": "select",
+                    "select": {
+                        "id": "c43f1db3-5b9e-43e3-aab7-b99ca9b6bd46",
+                        "name": "yes",
+                        "color": "green"
+                    }
+                },
+                "Recipe": {
+                    "id": "I%5Elg",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Shots": {
+                    "id": "JRfw",
+                    "type": "select",
+                    "select": null
+                },
+                "Caffiene": {
+                    "id": "KTvj",
+                    "type": "select",
+                    "select": null
+                },
+                "Tea": {
+                    "id": "PnDN",
+                    "type": "select",
+                    "select": null
+                },
+                "Temp": {
+                    "id": "aU%5Dc",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "Effects": {
+                    "id": "h%5BSK",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "FlavorNotes": {
+                    "id": "jjjE",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Information": {
+                    "id": "k%40WW",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Category": {
+                    "id": "p%5C%7BT",
+                    "type": "select",
+                    "select": {
+                        "id": "6a08301e-ae7c-426b-a6a4-6cfb63326fe3",
+                        "name": "Whipped Topping",
+                        "color": "yellow"
+                    }
+                },
+                "Specialty": {
+                    "id": "~DOX",
+                    "type": "select",
+                    "select": null
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Whipped Cream",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Whipped Cream",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Whipped-Cream-1c654aaf8f1b80618c2fff62b6a0872e",
+            "public_url": null
+        },
+        {
+            "object": "page",
+            "id": "1bf54aaf-8f1b-802c-aa13-cc5e52611f4a",
+            "created_time": "2025-03-23T21:36:00.000Z",
+            "last_edited_time": "2025-03-23T21:38:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "6498164e-ff6f-4739-88c8-a1614cf255ce"
+            },
+            "cover": null,
+            "icon": {
+                "type": "external",
+                "external": {
+                    "url": "https://www.notion.so/icons/garlic_gray.svg"
+                }
+            },
+            "parent": {
+                "type": "database_id",
+                "database_id": "1a854aaf-8f1b-806d-bb92-f64eb6235f0d"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3AV~%3E",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "SubType": {
+                    "id": "%3DNyK",
+                    "type": "select",
+                    "select": {
+                        "id": "571a7dfa-f546-428b-96d4-d4236d3c8741",
+                        "name": "Misc",
+                        "color": "yellow"
+                    }
+                },
+                "Espresso": {
+                    "id": "%3FKMB",
+                    "type": "select",
+                    "select": {
+                        "id": "7445d1af-52b7-4e55-b357-b211f921045f",
+                        "name": "yes",
+                        "color": "default"
+                    }
+                },
+                "InStock": {
+                    "id": "A%3Fkv",
+                    "type": "select",
+                    "select": {
+                        "id": "c43f1db3-5b9e-43e3-aab7-b99ca9b6bd46",
+                        "name": "yes",
+                        "color": "green"
+                    }
+                },
+                "Recipe": {
+                    "id": "I%5Elg",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Shots": {
+                    "id": "JRfw",
+                    "type": "select",
+                    "select": {
+                        "id": "4bb14625-2ad3-4d14-a732-a0d8c0ad6c3d",
+                        "name": "yes",
+                        "color": "gray"
+                    }
+                },
+                "Caffiene": {
+                    "id": "KTvj",
+                    "type": "select",
+                    "select": {
+                        "id": "bf3b0fdc-31a6-4152-99bd-310533f5326b",
+                        "name": "high",
+                        "color": "pink"
+                    }
+                },
+                "Tea": {
+                    "id": "PnDN",
+                    "type": "select",
+                    "select": null
+                },
+                "Temp": {
+                    "id": "aU%5Dc",
+                    "type": "multi_select",
+                    "multi_select": [
+                        {
+                            "id": "91527866-145d-49b7-beea-139d9d7f7306",
+                            "name": "hot",
+                            "color": "gray"
+                        },
+                        {
+                            "id": "bdef5a5d-faaa-4041-b20a-b93189dda123",
+                            "name": "cold",
+                            "color": "yellow"
+                        }
+                    ]
+                },
+                "Effects": {
+                    "id": "h%5BSK",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "FlavorNotes": {
+                    "id": "jjjE",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Information": {
+                    "id": "k%40WW",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Category": {
+                    "id": "p%5C%7BT",
+                    "type": "select",
+                    "select": {
+                        "id": "53d71648-885d-4204-a24a-9d3d1c9f5ee8",
+                        "name": "Coffee",
+                        "color": "orange"
+                    }
+                },
+                "Specialty": {
+                    "id": "~DOX",
+                    "type": "select",
+                    "select": {
+                        "id": "07ae11d7-da8a-4e75-ba15-6018d47b15d6",
+                        "name": "yes",
+                        "color": "orange"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Mocha Latte",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Mocha Latte",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Mocha-Latte-1bf54aaf8f1b802caa13cc5e52611f4a",
+            "public_url": null
+        },
+        {
+            "object": "page",
             "id": "1b154aaf-8f1b-80cb-9810-fe81814c2fa0",
             "created_time": "2025-03-09T00:48:00.000Z",
             "last_edited_time": "2025-03-09T19:01:00.000Z",
@@ -33,6 +332,11 @@
                 },
                 "SubType": {
                     "id": "%3DNyK",
+                    "type": "select",
+                    "select": null
+                },
+                "Espresso": {
+                    "id": "%3FKMB",
                     "type": "select",
                     "select": null
                 },
@@ -71,6 +375,11 @@
                 },
                 "Caffiene": {
                     "id": "KTvj",
+                    "type": "select",
+                    "select": null
+                },
+                "Tea": {
+                    "id": "PnDN",
                     "type": "select",
                     "select": null
                 },
@@ -201,6 +510,11 @@
                     "type": "select",
                     "select": null
                 },
+                "Espresso": {
+                    "id": "%3FKMB",
+                    "type": "select",
+                    "select": null
+                },
                 "InStock": {
                     "id": "A%3Fkv",
                     "type": "select",
@@ -236,6 +550,11 @@
                 },
                 "Caffiene": {
                     "id": "KTvj",
+                    "type": "select",
+                    "select": null
+                },
+                "Tea": {
+                    "id": "PnDN",
                     "type": "select",
                     "select": null
                 },
@@ -388,6 +707,11 @@
                         "color": "red"
                     }
                 },
+                "Espresso": {
+                    "id": "%3FKMB",
+                    "type": "select",
+                    "select": null
+                },
                 "InStock": {
                     "id": "A%3Fkv",
                     "type": "select",
@@ -409,6 +733,11 @@
                 },
                 "Caffiene": {
                     "id": "KTvj",
+                    "type": "select",
+                    "select": null
+                },
+                "Tea": {
+                    "id": "PnDN",
                     "type": "select",
                     "select": null
                 },
@@ -514,6 +843,11 @@
                         "color": "default"
                     }
                 },
+                "Espresso": {
+                    "id": "%3FKMB",
+                    "type": "select",
+                    "select": null
+                },
                 "InStock": {
                     "id": "A%3Fkv",
                     "type": "select",
@@ -535,6 +869,11 @@
                 },
                 "Caffiene": {
                     "id": "KTvj",
+                    "type": "select",
+                    "select": null
+                },
+                "Tea": {
+                    "id": "PnDN",
                     "type": "select",
                     "select": null
                 },
@@ -640,6 +979,11 @@
                         "color": "default"
                     }
                 },
+                "Espresso": {
+                    "id": "%3FKMB",
+                    "type": "select",
+                    "select": null
+                },
                 "InStock": {
                     "id": "A%3Fkv",
                     "type": "select",
@@ -661,6 +1005,11 @@
                 },
                 "Caffiene": {
                     "id": "KTvj",
+                    "type": "select",
+                    "select": null
+                },
+                "Tea": {
+                    "id": "PnDN",
                     "type": "select",
                     "select": null
                 },
@@ -766,6 +1115,11 @@
                         "color": "default"
                     }
                 },
+                "Espresso": {
+                    "id": "%3FKMB",
+                    "type": "select",
+                    "select": null
+                },
                 "InStock": {
                     "id": "A%3Fkv",
                     "type": "select",
@@ -787,6 +1141,11 @@
                 },
                 "Caffiene": {
                     "id": "KTvj",
+                    "type": "select",
+                    "select": null
+                },
+                "Tea": {
+                    "id": "PnDN",
                     "type": "select",
                     "select": null
                 },
@@ -910,6 +1269,11 @@
                         "color": "default"
                     }
                 },
+                "Espresso": {
+                    "id": "%3FKMB",
+                    "type": "select",
+                    "select": null
+                },
                 "InStock": {
                     "id": "A%3Fkv",
                     "type": "select",
@@ -937,6 +1301,11 @@
                         "name": "medium",
                         "color": "gray"
                     }
+                },
+                "Tea": {
+                    "id": "PnDN",
+                    "type": "select",
+                    "select": null
                 },
                 "Temp": {
                     "id": "aU%5Dc",
@@ -1076,6 +1445,11 @@
                         "color": "pink"
                     }
                 },
+                "Espresso": {
+                    "id": "%3FKMB",
+                    "type": "select",
+                    "select": null
+                },
                 "InStock": {
                     "id": "A%3Fkv",
                     "type": "select",
@@ -1103,6 +1477,11 @@
                         "name": "none",
                         "color": "purple"
                     }
+                },
+                "Tea": {
+                    "id": "PnDN",
+                    "type": "select",
+                    "select": null
                 },
                 "Temp": {
                     "id": "aU%5Dc",
@@ -1260,6 +1639,11 @@
                         "color": "default"
                     }
                 },
+                "Espresso": {
+                    "id": "%3FKMB",
+                    "type": "select",
+                    "select": null
+                },
                 "InStock": {
                     "id": "A%3Fkv",
                     "type": "select",
@@ -1287,6 +1671,11 @@
                         "name": "medium",
                         "color": "gray"
                     }
+                },
+                "Tea": {
+                    "id": "PnDN",
+                    "type": "select",
+                    "select": null
                 },
                 "Temp": {
                     "id": "aU%5Dc",
@@ -1430,6 +1819,11 @@
                         "color": "default"
                     }
                 },
+                "Espresso": {
+                    "id": "%3FKMB",
+                    "type": "select",
+                    "select": null
+                },
                 "InStock": {
                     "id": "A%3Fkv",
                     "type": "select",
@@ -1457,6 +1851,11 @@
                         "name": "medium",
                         "color": "gray"
                     }
+                },
+                "Tea": {
+                    "id": "PnDN",
+                    "type": "select",
+                    "select": null
                 },
                 "Temp": {
                     "id": "aU%5Dc",
@@ -1596,6 +1995,11 @@
                         "color": "default"
                     }
                 },
+                "Espresso": {
+                    "id": "%3FKMB",
+                    "type": "select",
+                    "select": null
+                },
                 "InStock": {
                     "id": "A%3Fkv",
                     "type": "select",
@@ -1623,6 +2027,11 @@
                         "name": "medium",
                         "color": "gray"
                     }
+                },
+                "Tea": {
+                    "id": "PnDN",
+                    "type": "select",
+                    "select": null
                 },
                 "Temp": {
                     "id": "aU%5Dc",
@@ -1766,6 +2175,11 @@
                         "color": "default"
                     }
                 },
+                "Espresso": {
+                    "id": "%3FKMB",
+                    "type": "select",
+                    "select": null
+                },
                 "InStock": {
                     "id": "A%3Fkv",
                     "type": "select",
@@ -1793,6 +2207,11 @@
                         "name": "medium",
                         "color": "gray"
                     }
+                },
+                "Tea": {
+                    "id": "PnDN",
+                    "type": "select",
+                    "select": null
                 },
                 "Temp": {
                     "id": "aU%5Dc",
@@ -1914,6 +2333,11 @@
                         "color": "green"
                     }
                 },
+                "Espresso": {
+                    "id": "%3FKMB",
+                    "type": "select",
+                    "select": null
+                },
                 "InStock": {
                     "id": "A%3Fkv",
                     "type": "select",
@@ -1935,6 +2359,11 @@
                 },
                 "Caffiene": {
                     "id": "KTvj",
+                    "type": "select",
+                    "select": null
+                },
+                "Tea": {
+                    "id": "PnDN",
                     "type": "select",
                     "select": null
                 },
@@ -2040,6 +2469,11 @@
                         "color": "green"
                     }
                 },
+                "Espresso": {
+                    "id": "%3FKMB",
+                    "type": "select",
+                    "select": null
+                },
                 "InStock": {
                     "id": "A%3Fkv",
                     "type": "select",
@@ -2061,6 +2495,11 @@
                 },
                 "Caffiene": {
                     "id": "KTvj",
+                    "type": "select",
+                    "select": null
+                },
+                "Tea": {
+                    "id": "PnDN",
                     "type": "select",
                     "select": null
                 },
@@ -2180,6 +2619,11 @@
                     "type": "select",
                     "select": null
                 },
+                "Espresso": {
+                    "id": "%3FKMB",
+                    "type": "select",
+                    "select": null
+                },
                 "InStock": {
                     "id": "A%3Fkv",
                     "type": "select",
@@ -2201,6 +2645,11 @@
                 },
                 "Caffiene": {
                     "id": "KTvj",
+                    "type": "select",
+                    "select": null
+                },
+                "Tea": {
+                    "id": "PnDN",
                     "type": "select",
                     "select": null
                 },
@@ -2338,6 +2787,11 @@
                     "type": "select",
                     "select": null
                 },
+                "Espresso": {
+                    "id": "%3FKMB",
+                    "type": "select",
+                    "select": null
+                },
                 "InStock": {
                     "id": "A%3Fkv",
                     "type": "select",
@@ -2359,6 +2813,11 @@
                 },
                 "Caffiene": {
                     "id": "KTvj",
+                    "type": "select",
+                    "select": null
+                },
+                "Tea": {
+                    "id": "PnDN",
                     "type": "select",
                     "select": null
                 },
@@ -2500,6 +2959,11 @@
                         "color": "pink"
                     }
                 },
+                "Espresso": {
+                    "id": "%3FKMB",
+                    "type": "select",
+                    "select": null
+                },
                 "InStock": {
                     "id": "A%3Fkv",
                     "type": "select",
@@ -2527,6 +2991,11 @@
                         "name": "none",
                         "color": "purple"
                     }
+                },
+                "Tea": {
+                    "id": "PnDN",
+                    "type": "select",
+                    "select": null
                 },
                 "Temp": {
                     "id": "aU%5Dc",
@@ -2684,6 +3153,11 @@
                         "color": "red"
                     }
                 },
+                "Espresso": {
+                    "id": "%3FKMB",
+                    "type": "select",
+                    "select": null
+                },
                 "InStock": {
                     "id": "A%3Fkv",
                     "type": "select",
@@ -2711,6 +3185,11 @@
                         "name": "high",
                         "color": "pink"
                     }
+                },
+                "Tea": {
+                    "id": "PnDN",
+                    "type": "select",
+                    "select": null
                 },
                 "Temp": {
                     "id": "aU%5Dc",
@@ -2868,6 +3347,11 @@
                     "type": "select",
                     "select": null
                 },
+                "Espresso": {
+                    "id": "%3FKMB",
+                    "type": "select",
+                    "select": null
+                },
                 "InStock": {
                     "id": "A%3Fkv",
                     "type": "select",
@@ -2889,6 +3373,11 @@
                 },
                 "Caffiene": {
                     "id": "KTvj",
+                    "type": "select",
+                    "select": null
+                },
+                "Tea": {
+                    "id": "PnDN",
                     "type": "select",
                     "select": null
                 },
@@ -3008,6 +3497,11 @@
                     "type": "select",
                     "select": null
                 },
+                "Espresso": {
+                    "id": "%3FKMB",
+                    "type": "select",
+                    "select": null
+                },
                 "InStock": {
                     "id": "A%3Fkv",
                     "type": "select",
@@ -3043,6 +3537,11 @@
                 },
                 "Caffiene": {
                     "id": "KTvj",
+                    "type": "select",
+                    "select": null
+                },
+                "Tea": {
+                    "id": "PnDN",
                     "type": "select",
                     "select": null
                 },
@@ -3162,6 +3661,11 @@
                     "type": "select",
                     "select": null
                 },
+                "Espresso": {
+                    "id": "%3FKMB",
+                    "type": "select",
+                    "select": null
+                },
                 "InStock": {
                     "id": "A%3Fkv",
                     "type": "select",
@@ -3197,6 +3701,11 @@
                 },
                 "Caffiene": {
                     "id": "KTvj",
+                    "type": "select",
+                    "select": null
+                },
+                "Tea": {
+                    "id": "PnDN",
                     "type": "select",
                     "select": null
                 },
@@ -3349,6 +3858,11 @@
                         "color": "purple"
                     }
                 },
+                "Espresso": {
+                    "id": "%3FKMB",
+                    "type": "select",
+                    "select": null
+                },
                 "InStock": {
                     "id": "A%3Fkv",
                     "type": "select",
@@ -3380,6 +3894,11 @@
                         "name": "high",
                         "color": "pink"
                     }
+                },
+                "Tea": {
+                    "id": "PnDN",
+                    "type": "select",
+                    "select": null
                 },
                 "Temp": {
                     "id": "aU%5Dc",
@@ -3547,6 +4066,11 @@
                         "color": "red"
                     }
                 },
+                "Espresso": {
+                    "id": "%3FKMB",
+                    "type": "select",
+                    "select": null
+                },
                 "InStock": {
                     "id": "A%3Fkv",
                     "type": "select",
@@ -3574,6 +4098,11 @@
                         "name": "low",
                         "color": "blue"
                     }
+                },
+                "Tea": {
+                    "id": "PnDN",
+                    "type": "select",
+                    "select": null
                 },
                 "Temp": {
                     "id": "aU%5Dc",
@@ -3735,6 +4264,11 @@
                         "color": "yellow"
                     }
                 },
+                "Espresso": {
+                    "id": "%3FKMB",
+                    "type": "select",
+                    "select": null
+                },
                 "InStock": {
                     "id": "A%3Fkv",
                     "type": "select",
@@ -3762,6 +4296,11 @@
                         "name": "medium",
                         "color": "gray"
                     }
+                },
+                "Tea": {
+                    "id": "PnDN",
+                    "type": "select",
+                    "select": null
                 },
                 "Temp": {
                     "id": "aU%5Dc",
@@ -3929,6 +4468,11 @@
                         "color": "yellow"
                     }
                 },
+                "Espresso": {
+                    "id": "%3FKMB",
+                    "type": "select",
+                    "select": null
+                },
                 "InStock": {
                     "id": "A%3Fkv",
                     "type": "select",
@@ -3974,6 +4518,11 @@
                         "name": "none",
                         "color": "purple"
                     }
+                },
+                "Tea": {
+                    "id": "PnDN",
+                    "type": "select",
+                    "select": null
                 },
                 "Temp": {
                     "id": "aU%5Dc",
