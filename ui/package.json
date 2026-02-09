@@ -2,7 +2,7 @@
   "name": "the-purrfect-brew",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lrngrffth.github.io/home-bar/",
+  "homepage": "https://purrfect-cafe.onrender.com/",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
@@ -24,7 +24,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "npm run deploy",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -50,7 +50,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
-    "gh-pages": "^6.3.0",
     "postcss": "^8.5.1",
     "react-router-dom": "^7.2.0",
     "tailwindcss": "^3.4.17",
