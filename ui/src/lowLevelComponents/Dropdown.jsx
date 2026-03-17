@@ -54,7 +54,6 @@ export function Dropdown({value, handleChange, label, options}) {
         <Field>
             <Label className="font-semibold pb-3">{label}</Label>
             <Select
-                labelId="dropdown"
                 id="dropdown"
                 value={value}
                 label={label}
@@ -62,7 +61,7 @@ export function Dropdown({value, handleChange, label, options}) {
                 className="flex flex-col w-64 color-dusk-rose bg-cotton-candy border-dusk-rose border text-base"
             >
                 {options && options.map((option, i) => (
-                    <option value={option}>{option}</option>
+                    <option value={option} key={i}>{option}</option>
                 ))}
 
             </Select>

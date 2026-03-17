@@ -26,7 +26,7 @@ export default class ReceiptStore {
 
     removeDrink(drinkNum) {
         this.items.splice(drinkNum,1);
-        if (this.items.length <= this.selectedDrink + 1) {
+        if (this.items.length <= this.selectedDrink ) {
             this.selectedDrink--;
         }
     }
@@ -41,6 +41,7 @@ export default class ReceiptStore {
 
     addDrink() {
         this.items.push([]);
+        this.selectedDrink = this.items.length - 1
     }
     
     selectDrink(drinkNum) {

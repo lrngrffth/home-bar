@@ -17,7 +17,7 @@ const MainPage = observer(() => {
       <div className="">Welcome to</div>
       <div className="font-extrabold">The Purrfect Brew</div>
       <div className="w-96"><img src={cat} alt="Cat listening to music"/></div>
-      <Button newStyle="large" onClick={() => navigate('/order')}>Order Now</Button>
+      <Button newStyle="large" onClick={() => navigate('/order')} className="cursor-pointer">Order Now</Button>
     </div>
   );
 })
